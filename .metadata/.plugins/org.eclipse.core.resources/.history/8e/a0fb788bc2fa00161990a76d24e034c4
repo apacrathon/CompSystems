@@ -1,0 +1,45 @@
+/*
+ ============================================================================
+ Name        : Project.c
+ Author      : Raj Patel
+ Version     :
+ Copyright   : © 2017 Apacrathon, All Rights Reserved.
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <string.h>
+
+int32_t generate_randnum_file(int32_t n, char PATH);
+
+int main(void) {
+	srand(time(NULL));
+
+	generate_randnum_file(10, "./");
+	return EXIT_SUCCESS;
+}
+
+int32_t generate_randnum_file(int32_t n, char PATH)
+{
+	int result = 0;
+
+	//if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+	strcat(PATH, "random.txt");
+	if (n <= 0) { printf("Setting n to default value (%d)\n", n = 1); }
+
+	FILE * rand_num = fopen(PATH, "w+");
+
+	for (int32_t count = 0; count < n; count++)
+	{
+		printf("Writing to file...");
+		fputs(rand() * 100 + "\n", rand_num);
+	}
+	fclose(rand_num);
+
+
+	return result;
+}

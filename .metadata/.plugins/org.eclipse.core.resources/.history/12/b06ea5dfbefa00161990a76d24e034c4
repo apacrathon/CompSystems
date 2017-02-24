@@ -1,0 +1,34 @@
+/*
+ ============================================================================
+ Name        : Project.c
+ Author      : Raj Patel
+ Version     :
+ Copyright   : © 2017 Apacrathon, All Rights Reserved.
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int32_t generate_randnum_file(int32_t n, char * PATH);
+
+int main(void) {
+
+	return EXIT_SUCCESS;
+}
+
+int32_t generate_randnum_file(int32_t n, char * PATH)
+{
+	int result = 0;
+
+	if (strcmp(PATH, "") == 0) { PATH = "./"; }
+
+
+
+
+
+	return result;
+}

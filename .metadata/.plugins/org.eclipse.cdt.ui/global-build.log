@@ -1,0 +1,1845 @@
+17:49:56 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../src/test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.o" -o "src/test.o" "../src/test.c"
+Finished building: ../src/test.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/test.o   
+Finished building target: test
+ 
+17:50:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.o" -o "src/test.o" "../src/test.c"
+Finished building: ../src/test.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/test.o   
+Finished building target: test
+ 
+19:02:17 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.o" -o "src/test.o" "../src/test.c"
+../src/test.c: In function ‘main’:
+../src/test.c:15:41: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+                                         ^
+Finished building: ../src/test.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/test.o   
+Finished building target: test
+ 
+19:03:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.o" -o "src/test.o" "../src/test.c"
+../src/test.c: In function ‘main’:
+../src/test.c:15:41: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+                                         ^
+../src/test.c:16:45: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("The parent process ID %d\n", (int) getppid());
+                                             ^
+Finished building: ../src/test.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/test.o   
+Finished building target: test
+ 
+19:03:44 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:45 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:46 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:48 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:49 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:50 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:51 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:52 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:53 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:54 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:55 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:56 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:57 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:50 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/print-pid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/print-pid.d" -MT"src/print-pid.o" -o "src/print-pid.o" "../src/print-pid.c"
+../src/print-pid.c: In function ‘main’:
+../src/print-pid.c:15:41: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+                                         ^
+../src/print-pid.c:16:45: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("The parent process ID %d\n", (int) getppid());
+                                             ^
+Finished building: ../src/print-pid.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/print-pid.o   
+Finished building target: test
+ 
+19:23:52 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:53 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:54 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:23:55 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+19:34:23 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/system.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+Finished building: ../src/system.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/print-pid.o ./src/system.o   
+./src/system.o: In function `main':
+/home/raj/comp_systems/test/Debug/../src/system.c:10: multiple definition of `main'
+makefile:30: recipe for target 'test' failed
+./src/print-pid.o:/home/raj/comp_systems/test/Debug/../src/print-pid.c:14: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [test] Error 1
+19:34:42 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/print-pid.o ./src/system.o   
+./src/system.o: In function `main':
+/home/raj/comp_systems/test/Debug/../src/system.c:10: multiple definition of `main'
+makefile:30: recipe for target 'test' failed
+./src/print-pid.o:/home/raj/comp_systems/test/Debug/../src/print-pid.c:14: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [test] Error 1
+19:34:53 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/print-pid.o ./src/system.o   
+./src/system.o: In function `main':
+/home/raj/comp_systems/test/Debug/../src/system.c:10: multiple definition of `main'
+./src/print-pid.o:/home/raj/comp_systems/test/Debug/../src/print-pid.c:14: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [test] Error 1
+makefile:30: recipe for target 'test' failed
+19:36:36 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/system.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/system.d" -MT"src/system.o" -o "src/system.o" "../src/system.c"
+../src/system.c: In function ‘main’:
+../src/system.c:11:2: error: too few arguments to function ‘system’
+  system();
+  ^
+In file included from ../src/system.c:7:0:
+/usr/include/stdlib.h:716:12: note: declared here
+ extern int system (const char *__command) __wur;
+            ^
+../src/system.c: In function ‘print_pid’:
+../src/system.c:16:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+  ^
+../src/system.c:16:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../src/system.c:16:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../src/system.c:16:41: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+                                         ^
+../src/system.c:17:45: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("The parent process ID %d\n", (int) getppid());
+                                             ^
+../src/system.c: In function ‘system’:
+../src/system.c:22:1: error: number of arguments doesn’t match prototype
+ {
+ ^
+In file included from ../src/system.c:7:0:
+/usr/include/stdlib.h:716:12: error: prototype declaration
+ extern int system (const char *__command) __wur;
+            ^
+make: *** [src/system.o] Error 1
+src/subdir.mk:21: recipe for target 'src/system.o' failed
+19:37:19 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/pid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pid.d" -MT"src/pid.o" -o "src/pid.o" "../src/pid.c"
+../src/pid.c: In function ‘main’:
+../src/pid.c:11:2: error: too few arguments to function ‘system’
+  system();
+  ^
+In file included from ../src/pid.c:7:0:
+/usr/include/stdlib.h:716:12: note: declared here
+ extern int system (const char *__command) __wur;
+            ^
+../src/pid.c: In function ‘print_pid’:
+../src/pid.c:16:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+  ^
+../src/pid.c:16:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../src/pid.c:16:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+src/subdir.mk:18: recipe for target 'src/pid.o' failed
+../src/pid.c:16:41: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+                                         ^
+../src/pid.c:17:45: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("The parent process ID %d\n", (int) getppid());
+                                             ^
+../src/pid.c: In function ‘system’:
+../src/pid.c:22:1: error: number of arguments doesn’t match prototype
+ {
+ ^
+In file included from ../src/pid.c:7:0:
+/usr/include/stdlib.h:716:12: error: prototype declaration
+ extern int system (const char *__command) __wur;
+            ^
+make: *** [src/pid.o] Error 1
+19:37:41 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/pid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pid.d" -MT"src/pid.o" -o "src/pid.o" "../src/pid.c"
+../src/pid.c: In function ‘main’:
+../src/pid.c:14:2: error: too few arguments to function ‘system’
+  system();
+  ^
+In file included from ../src/pid.c:7:0:
+/usr/include/stdlib.h:716:12: note: declared here
+src/subdir.mk:18: recipe for target 'src/pid.o' failed
+ extern int system (const char *__command) __wur;
+            ^
+../src/pid.c: In function ‘print_pid’:
+../src/pid.c:19:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+  ^
+../src/pid.c:19:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../src/pid.c:19:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../src/pid.c:19:41: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+                                         ^
+../src/pid.c:20:45: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("The parent process ID %d\n", (int) getppid());
+                                             ^
+../src/pid.c: In function ‘system’:
+../src/pid.c:25:1: error: number of arguments doesn’t match prototype
+ {
+ ^
+In file included from ../src/pid.c:7:0:
+/usr/include/stdlib.h:716:12: error: prototype declaration
+ extern int system (const char *__command) __wur;
+            ^
+make: *** [src/pid.o] Error 1
+19:39:03 **** Incremental Build of configuration Debug for project test ****
+make all 
+Building file: ../src/pid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pid.d" -MT"src/pid.o" -o "src/pid.o" "../src/pid.c"
+../src/pid.c: In function ‘print_pid’:
+../src/pid.c:19:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+  ^
+../src/pid.c:19:2: warning: incompatible implicit declaration of built-in function ‘printf’
+../src/pid.c:19:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+../src/pid.c:19:41: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("The process ID is %d\n", (int) getpid());
+                                         ^
+../src/pid.c:20:45: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("The parent process ID %d\n", (int) getppid());
+                                             ^
+Finished building: ../src/pid.c
+ 
+Building target: test
+Invoking: GCC C Linker
+gcc  -o "test"  ./src/pid.o   
+Finished building target: test
+ 
+19:39:29 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for 'all'.
+13:13:43 **** Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c:15:9: warning: #pragma once in main file
+ #pragma once
+         ^
+../src/Project 1.c:12:0: error: unterminated #ifndef
+ #ifndef __GRAPH_H__
+ ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+13:14:44 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c:11:9: warning: #pragma once in main file
+ #pragma once
+         ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:14:46 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:17:02 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c:14:18: fatal error: string: No such file or directory
+compilation terminated.
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+13:21:02 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:25:11: warning: comparison between pointer and integer
+  if (PATH == ("")) { PATH = "./"; }
+           ^
+../src/Project 1.c:25:27: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (PATH == ("")) { PATH = "./"; }
+                           ^
+../src/Project 1.c:24:6: warning: unused variable ‘result’ [-Wunused-variable]
+  int result;
+      ^
+../src/Project 1.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:22:58 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:26:11: error: request for member ‘equals’ in something not a structure or union
+  if (*PATH.equals("");) { PATH = "./"; }
+           ^
+../src/Project 1.c:26:22: error: expected ‘)’ before ‘;’ token
+  if (*PATH.equals("");) { PATH = "./"; }
+                      ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+13:27:53 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:27:57 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:28:48 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:28:55 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:29:02 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:29:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:29:33 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:29:35 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:35:09 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:35:7: error: unknown type name ‘uint32_t’
+  for (uint32_t count = 0; count < n; count++)
+       ^
+../src/Project 1.c:33:9: warning: unused variable ‘rand_num’ [-Wunused-variable]
+  FILE * rand_num = fopen(PATH, "w+");
+         ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+13:36:04 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:33:9: warning: unused variable ‘rand_num’ [-Wunused-variable]
+  FILE * rand_num = fopen(PATH, "w+");
+         ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:37:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:37:13: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+    (rand_num, rand() * 100);
+             ^
+../src/Project 1.c:37:13: warning: value computed is not used [-Wunused-value]
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:37:34 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:39:47 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:38:21: warning: passing argument 2 of ‘fprintf’ makes pointer from integer without a cast [-Wint-conversion]
+   fprintf(rand_num, rand() * 100);
+                     ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:356:12: note: expected ‘const char * restrict’ but argument is of type ‘int’
+ extern int fprintf (FILE *__restrict __stream,
+            ^
+../src/Project 1.c:38:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num, rand() * 100);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:40:57 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:30:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:30:83: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                                                                   ^
+../src/Project 1.c:30:38: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                      ^
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.list");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:38:21: warning: passing argument 2 of ‘fprintf’ makes pointer from integer without a cast [-Wint-conversion]
+   fprintf(rand_num, rand() * 100);
+                     ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:356:12: note: expected ‘const char * restrict’ but argument is of type ‘int’
+ extern int fprintf (FILE *__restrict __stream,
+            ^
+../src/Project 1.c:38:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num, rand() * 100);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:41:00 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:41:06 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:41:36 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:30:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:30:83: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                                                                   ^
+../src/Project 1.c:30:38: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                      ^
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.list");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:39:21: warning: passing argument 2 of ‘fprintf’ makes pointer from integer without a cast [-Wint-conversion]
+   fprintf(rand_num, rand() * 100);
+                     ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:356:12: note: expected ‘const char * restrict’ but argument is of type ‘int’
+ extern int fprintf (FILE *__restrict __stream,
+            ^
+../src/Project 1.c:39:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num, rand() * 100);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:41:39 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:12 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:30:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:30:83: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                                                                   ^
+../src/Project 1.c:30:38: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                      ^
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.list");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:39:9: warning: passing argument 1 of ‘fputs’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fputs(rand_num, rand() * 100 + "\n");
+         ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:689:12: note: expected ‘const char * restrict’ but argument is of type ‘FILE * {aka struct _IO_FILE *}’
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+../src/Project 1.c:39:19: warning: passing argument 2 of ‘fputs’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fputs(rand_num, rand() * 100 + "\n");
+                   ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:689:12: note: expected ‘FILE * restrict {aka struct _IO_FILE * restrict}’ but argument is of type ‘char *’
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:43:16 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:43:41 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:30:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:30:83: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                                                                   ^
+../src/Project 1.c:30:38: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                      ^
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.list");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:39:9: warning: passing argument 1 of ‘fputs’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fputs(rand_num, rand() * 100 + "\n");
+         ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:689:12: note: expected ‘const char * restrict’ but argument is of type ‘FILE * {aka struct _IO_FILE *}’
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+../src/Project 1.c:39:19: warning: passing argument 2 of ‘fputs’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fputs(rand_num, rand() * 100 + "\n");
+                   ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:689:12: note: expected ‘FILE * restrict {aka struct _IO_FILE * restrict}’ but argument is of type ‘char *’
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:44:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:30:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 1) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:30:83: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 1) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                                                                   ^
+../src/Project 1.c:30:38: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+  if (strcmp(PATH, "") == 1) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                      ^
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.list");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:39:9: warning: passing argument 1 of ‘fputs’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fputs(rand_num, rand() * 100 + "\n");
+         ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:689:12: note: expected ‘const char * restrict’ but argument is of type ‘FILE * {aka struct _IO_FILE *}’
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+../src/Project 1.c:39:19: warning: passing argument 2 of ‘fputs’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fputs(rand_num, rand() * 100 + "\n");
+                   ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:689:12: note: expected ‘FILE * restrict {aka struct _IO_FILE * restrict}’ but argument is of type ‘char *’
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:44:23 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:44:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:30:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") != 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:30:83: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") != 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                                                                   ^
+../src/Project 1.c:30:38: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+  if (strcmp(PATH, "") != 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                      ^
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.list");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:39:9: warning: passing argument 1 of ‘fputs’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fputs(rand_num, rand() * 100 + "\n");
+         ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:689:12: note: expected ‘const char * restrict’ but argument is of type ‘FILE * {aka struct _IO_FILE *}’
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+../src/Project 1.c:39:19: warning: passing argument 2 of ‘fputs’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fputs(rand_num, rand() * 100 + "\n");
+                   ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:689:12: note: expected ‘FILE * restrict {aka struct _IO_FILE * restrict}’ but argument is of type ‘char *’
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:44:32 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:45:51 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:30:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") != 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:30:83: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") != 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                                                                   ^
+../src/Project 1.c:30:38: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+  if (strcmp(PATH, "") != 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                      ^
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.list");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:46:25 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:46:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:48:49 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:30:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:30:83: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                                                                   ^
+../src/Project 1.c:30:38: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                      ^
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.list");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:52:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "./");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:30:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:30:83: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                                                                   ^
+../src/Project 1.c:30:38: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+  if (strcmp(PATH, "") == 0) { printf("Setting PATH to default value (%s)\n", PATH = "./"); }
+                                      ^
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.list");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:53:04 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "./");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.txt");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:26: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num = fopen(PATH, "w+");
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:53:06 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:53:36 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "./");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.txt");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+../src/Project 1.c:34:32: error: request for member ‘txt’ in something not a structure or union
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+  FILE * rand_num = fopen(random.txt, "w+");
+                                ^
+make: *** [src/Project 1.o] Error 1
+13:53:44 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "./");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:31:9: warning: passing argument 1 of ‘strcat’ makes pointer from integer without a cast [-Wint-conversion]
+  strcat(PATH, "random.txt");
+         ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:133:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:53:58 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "./");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:54:34 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "./");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:39:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num, rand() * 100 + "\n");
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:55:14 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:39:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num, rand() * 100 + "\n");
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:57:38 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:28: warning: passing argument 2 of ‘generate_randnum_file’ makes integer from pointer without a cast [-Wint-conversion]
+  generate_randnum_file(10, "");
+                            ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t generate_randnum_file(int32_t n, char PATH);
+         ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:44:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num_file, rand() * 100 + "\n");
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:58:44 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:30:35: error: ‘n’ undeclared (first use in this function)
+   for (int32_t count = 0; count < n; count++)
+                                   ^
+../src/Project 1.c:30:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/Project 1.c:33:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    fprintf(rand_num_file, rand() * 100 + "\n");
+    ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+../src/Project 1.c:59:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num_file, rand() * 100 + "\n");
+   ^
+make: *** [src/Project 1.o] Error 1
+13:58:59 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:33:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    fprintf(rand_num_file, rand() * 100 + "\n");
+    ^
+../src/Project 1.c: In function ‘generate_randnum_file’:
+../src/Project 1.c:59:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num_file, rand() * 100 + "\n");
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:59:03 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:59:44 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:32:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    fprintf(rand_num_file, rand() * 100 + "\n");
+    ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:00:11 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:32:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num_file, rand() * 100 + "\n");
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:00:17 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:32:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num_file, rand() * 100 + "\n");
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:00:56 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:01:14 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:03:25 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:32:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num_file, rand() * 100 + "\n");
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:03:34 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:32:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(rand_num_file, rand() * 100 + "\n");
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:05:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:07:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:32:11: warning: passing argument 1 of ‘fprintf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf("%d\n", rand_num_file, rand() * 100);
+           ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:356:12: note: expected ‘FILE * restrict {aka struct _IO_FILE * restrict}’ but argument is of type ‘char *’
+ extern int fprintf (FILE *__restrict __stream,
+            ^
+../src/Project 1.c:32:19: warning: passing argument 2 of ‘fprintf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf("%d\n", rand_num_file, rand() * 100);
+                   ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:356:12: note: expected ‘const char * restrict’ but argument is of type ‘FILE * {aka struct _IO_FILE *}’
+ extern int fprintf (FILE *__restrict __stream,
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:08:12 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:08:14 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:09:04 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:30:10: warning: value computed is not used [-Wunused-value]
+   rand() * 100;
+          ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:09:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:30:10: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+   printf(rand() * 100);
+          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:362:12: note: expected ‘const char * restrict’ but argument is of type ‘int’
+ extern int printf (const char *__restrict __format, ...);
+            ^
+../src/Project 1.c:30:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   printf(rand() * 100);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:09:42 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:10:32 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:48: error: expected ‘)’ before ‘s’
+   fprintf(rand_num_file, "%d\n", (rand() * 100)s);
+                                                ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+14:10:47 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:48: error: expected ‘)’ before ‘s’
+   fprintf(rand_num_file, "%d\n", (rand() * 100)s);
+                                                ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+14:11:25 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:48: error: expected ‘)’ before ‘s’
+   fprintf(rand_num_file, "%d\n", (rand() * 100)s);
+                                                ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+14:12:10 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:12:12 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:12:26 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:12:59 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:13:07 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:13:08 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:13:09 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:13:27 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:16:50 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘write_random_nums’:
+../src/Project 1.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:19:33 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:24: warning: passing argument 2 of ‘write_random_nums’ makes integer from pointer without a cast [-Wint-conversion]
+  write_random_nums(10, "random.list");
+                        ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t write_random_nums(int32_t n, char file_name);
+         ^
+../src/Project 1.c: In function ‘write_random_nums’:
+../src/Project 1.c:31:13: warning: passing argument 1 of ‘strcmp’ makes pointer from integer without a cast [-Wint-conversion]
+  if (strcmp(file_name, "") == 0) { file_name = "random.list"; }
+             ^
+In file included from ../src/Project 1.c:15:0:
+/usr/include/string.h:140:12: note: expected ‘const char *’ but argument is of type ‘char’
+ extern int strcmp (const char *__s1, const char *__s2)
+            ^
+../src/Project 1.c:31:46: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  if (strcmp(file_name, "") == 0) { file_name = "random.list"; }
+                                              ^
+../src/Project 1.c:33:31: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num_file = fopen(file_name, "w");
+                               ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:19:43 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:20:27 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:20:33 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:24: warning: passing argument 2 of ‘write_random_nums’ makes integer from pointer without a cast [-Wint-conversion]
+  write_random_nums(10, "random.list");
+                        ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t write_random_nums(int32_t n, char file_name);
+         ^
+../src/Project 1.c: In function ‘write_random_nums’:
+../src/Project 1.c:33:31: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num_file = fopen(file_name, "w");
+                               ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:20:43 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:24: warning: passing argument 2 of ‘write_random_nums’ makes integer from pointer without a cast [-Wint-conversion]
+  write_random_nums(10, "random.txt");
+                        ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t write_random_nums(int32_t n, char file_name);
+         ^
+../src/Project 1.c: In function ‘write_random_nums’:
+../src/Project 1.c:33:31: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num_file = fopen(file_name, "w");
+                               ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:20:54 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:24: warning: passing argument 2 of ‘write_random_nums’ makes integer from pointer without a cast [-Wint-conversion]
+  write_random_nums(10, "random.list");
+                        ^
+../src/Project 1.c:17:9: note: expected ‘char’ but argument is of type ‘char *’
+ int32_t write_random_nums(int32_t n, char file_name);
+         ^
+../src/Project 1.c: In function ‘write_random_nums’:
+../src/Project 1.c:33:31: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num_file = fopen(file_name, "w+");
+                               ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:21:23 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘write_random_nums’:
+../src/Project 1.c:44:31: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num_file = fopen(file_name, "w");
+                               ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+../src/Project 1.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:21:56 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘write_random_nums’:
+../src/Project 1.c:44:31: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num_file = fopen(file_name, "w");
+                               ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:22:13 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:24: warning: passing argument 2 of ‘write_random_nums’ makes integer from pointer without a cast [-Wint-conversion]
+  write_random_nums(10, "random.list");
+                        ^
+../src/Project 1.c:17:6: note: expected ‘char’ but argument is of type ‘char *’
+ void write_random_nums(int32_t n, char file_name);
+      ^
+../src/Project 1.c: In function ‘write_random_nums’:
+../src/Project 1.c:32:31: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num_file = fopen(file_name, "w");
+                               ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:22:26 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:24: warning: passing argument 2 of ‘write_random_nums’ makes integer from pointer without a cast [-Wint-conversion]
+  write_random_nums(10, "file.txt");
+                        ^
+../src/Project 1.c:17:6: note: expected ‘char’ but argument is of type ‘char *’
+ void write_random_nums(int32_t n, char file_name);
+      ^
+../src/Project 1.c: In function ‘write_random_nums’:
+../src/Project 1.c:32:31: warning: passing argument 1 of ‘fopen’ makes pointer from integer without a cast [-Wint-conversion]
+  FILE * rand_num_file = fopen(file_name, "w");
+                               ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:272:14: note: expected ‘const char * restrict’ but argument is of type ‘char’
+ extern FILE *fopen (const char *__restrict __filename,
+              ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:22:48 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:24: warning: passing argument 2 of ‘write_random_nums’ makes integer from pointer without a cast [-Wint-conversion]
+  write_random_nums(10, "file.txt");
+                        ^
+../src/Project 1.c:17:6: note: expected ‘char’ but argument is of type ‘char *’
+ void write_random_nums(int32_t n, char file_name);
+      ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:23:01 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:22:24: warning: passing argument 2 of ‘write_random_nums’ makes integer from pointer without a cast [-Wint-conversion]
+  write_random_nums(10, "file.txt");
+                        ^
+../src/Project 1.c:17:6: note: expected ‘char’ but argument is of type ‘char *’
+ void write_random_nums(int32_t n, char file_name);
+      ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
