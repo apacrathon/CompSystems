@@ -64,7 +64,6 @@ int main(void)
 }
 int32_t PART_A(int32_t data_size, int32_t data[])
 {
-	printf("Running Part A...\n\n");
 	printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
 	printf("The maximum value is: %d\n", max_of_array(data_size, data));
 	printf("The minimum value is: %d\n", min_of_array(data_size, data));

@@ -2867,3 +2867,78 @@ Invoking: GCC C Linker
 gcc  -o "Project 1"  ./src/Project\ 1.o   
 Finished building target: Project 1
  
+13:30:39 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:47:55: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid()));
+                                                       ^
+../src/Project 1.c:47:65: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid()));
+                                                                 ^
+../src/Project 1.c:47:75: error: expected ‘;’ before ‘)’ token
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid()));
+                                                                           ^
+../src/Project 1.c:47:75: error: expected statement before ‘)’ token
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+13:30:51 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:47:55: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
+                                                       ^
+../src/Project 1.c:47:65: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
+                                                                 ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:31:03 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:47:55: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
+                                                       ^
+../src/Project 1.c:47:65: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
+                                                                 ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:36:50 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:68:55: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
+                                                       ^
+../src/Project 1.c:68:65: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
+                                                                 ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 

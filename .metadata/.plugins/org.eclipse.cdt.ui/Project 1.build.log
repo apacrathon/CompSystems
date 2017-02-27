@@ -1,8 +1,15 @@
-13:27:37 **** Incremental Build of configuration Debug for project Project 1 ****
+13:36:50 **** Incremental Build of configuration Debug for project Project 1 ****
 make all 
 Building file: ../src/Project 1.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:68:55: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
+                                                       ^
+../src/Project 1.c:68:65: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
+                                                                 ^
 Finished building: ../src/Project 1.c
  
 Building target: Project 1
@@ -11,5 +18,5 @@ gcc  -o "Project 1"  ./src/Project\ 1.o
 Finished building target: Project 1
  
 
-13:27:37 Build Finished (took 118ms)
+13:36:50 Build Finished (took 236ms)
 
