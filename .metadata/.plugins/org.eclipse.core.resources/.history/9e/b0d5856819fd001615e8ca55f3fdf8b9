@@ -98,15 +98,3 @@ int32_t sum_of_array(int32_t n, int32_t data[])
 
 	return sum;
 }
-
-int32_t min_of_array(int32_t n, int32_t data[])
-{
-	int min = data[0];
-
-	for (int i = 1; i < n; i++)
-	{
-		if (min < data[i]) { min = data[i]; }
-	}
-
-	return min;
-}
