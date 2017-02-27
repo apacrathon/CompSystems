@@ -2942,3 +2942,1816 @@ Invoking: GCC C Linker
 gcc  -o "Project 1"  ./src/Project\ 1.o   
 Finished building target: Project 1
  
+14:24:37 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:67:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:68:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:81:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:24:40 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:32:48 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:68:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:69:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:84:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { stderr("Error creating pipe."); return -1; }
+      ^
+In file included from ../src/Project 1.c:12:0:
+../src/Project 1.c:84:28: error: called object ‘stderr’ is not a function or function pointer
+  if (pipe(pipefd) == -1) { stderr("Error creating pipe."); return -1; }
+                            ^
+/usr/include/stdio.h:170:25: note: declared here
+ extern struct _IO_FILE *stderr;  /* Standard error output stream.  */
+                         ^
+../src/Project 1.c:87:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:92:4: warning: implicit declaration of function ‘wait’ [-Wimplicit-function-declaration]
+    wait(&dummy);
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+    ^
+../src/Project 1.c:97:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(15);
+    ^
+../src/Project 1.c:101:13: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+     int n = read(pipefd[0], buffer, 12);
+             ^
+../src/Project 1.c:103:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+     printf("i = %d, You typed '%d'",i, buffer);
+            ^
+../src/Project 1.c:117:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:81:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:81:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+14:33:57 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:68:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:69:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:84:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:87:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:92:4: warning: implicit declaration of function ‘wait’ [-Wimplicit-function-declaration]
+    wait(&dummy);
+    ^
+../src/Project 1.c:97:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(15);
+    ^
+../src/Project 1.c:101:13: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+     int n = read(pipefd[0], buffer, 12);
+             ^
+../src/Project 1.c:103:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+     printf("i = %d, You typed '%d'",i, buffer);
+            ^
+../src/Project 1.c:117:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:81:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:81:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:34:04 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:34:16 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:35:02 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:68:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:69:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:84:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:87:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:92:4: warning: implicit declaration of function ‘wait’ [-Wimplicit-function-declaration]
+    wait(&dummy);
+    ^
+../src/Project 1.c:97:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(1);
+    ^
+../src/Project 1.c:101:13: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+     int n = read(pipefd[0], buffer, 12);
+             ^
+../src/Project 1.c:103:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+     printf("i = %d, You typed '%d'\n",i, buffer);
+            ^
+../src/Project 1.c:117:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:81:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:81:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:35:26 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:68:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:69:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:84:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:87:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:92:4: warning: implicit declaration of function ‘wait’ [-Wimplicit-function-declaration]
+    wait(&dummy);
+    ^
+../src/Project 1.c:97:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(15);
+    ^
+../src/Project 1.c:101:13: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+     int n = read(pipefd[0], buffer, 12);
+             ^
+../src/Project 1.c:103:12: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘char *’ [-Wformat=]
+     printf("i = %d, You typed '%d'\n",i, buffer);
+            ^
+../src/Project 1.c:117:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:81:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:81:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:36:14 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:43:06 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:68:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:69:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:84:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:87:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:103:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:104:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:82:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:81:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:81:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c:106:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:43:59 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:68:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:69:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:84:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:87:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:89:3: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+   sleep(15);
+   ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:82:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:81:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:81:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:39:41 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 12);
+            ^
+../src/Project 1.c:125:4: error: stray ‘\’ in program
+    printf("read from array: %d"\n, buffer);
+    ^
+../src/Project 1.c:125:33: error: expected ‘)’ before ‘n’
+    printf("read from array: %d"\n, buffer);
+                                 ^
+../src/Project 1.c:125:11: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+    printf("read from array: %d"\n, buffer);
+           ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+15:39:56 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 12);
+            ^
+../src/Project 1.c:125:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+    printf("read from array: %d\n", buffer);
+           ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:40:01 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:41:13 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:43:33 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 12);
+            ^
+../src/Project 1.c:124:10: error: subscripted value is neither array nor pointer nor vector
+    buffer[a] = '\0';
+          ^
+../src/Project 1.c:123:8: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+    int a = read(pipefd[0], buffer, 12);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+15:44:22 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:136:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:44:33 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:47:40 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:49:00 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:49:23 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer[1], 4);
+            ^
+../src/Project 1.c:123:34: error: subscripted value is neither array nor pointer nor vector
+    int a = read(pipefd[0], buffer[1], 4);
+                                  ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer[1], 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+15:49:39 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:50:38 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:51:03 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:51:19 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 1);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 1);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:52:08 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 1);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 1);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:52:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:52:49 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:124:10: error: subscripted value is neither array nor pointer nor vector
+    buffer[a];
+          ^
+../src/Project 1.c:123:8: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+15:52:55 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:123:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:53:01 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:125:42: error: subscripted value is neither array nor pointer nor vector
+    printf("read from array: %d\n", buffer[a]);
+                                          ^
+../src/Project 1.c:123:8: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+15:53:32 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:124:10: error: subscripted value is neither array nor pointer nor vector
+    buffer[a] = "\0";
+          ^
+../src/Project 1.c:123:8: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+15:53:51 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:124:10: error: subscripted value is neither array nor pointer nor vector
+    buffer[a] = '0';
+          ^
+../src/Project 1.c:123:8: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+15:53:59 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:21: error: invalid initializer
+  int32_t buffer[] = data;
+                     ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:125:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int32_t * {aka int *}’ [-Wformat=]
+    printf("read from array: %d\n", buffer);
+           ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+15:54:15 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:123:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:124:10: error: subscripted value is neither array nor pointer nor vector
+    buffer[a] = '0';
+          ^
+../src/Project 1.c:123:8: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+15:56:08 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:120:34: warning: ‘sizeof’ on array function parameter ‘data’ will return size of ‘int32_t * {aka int *}’ [-Wsizeof-array-argument]
+   write(pipefd[1], buffer, sizeof(data));
+                                  ^
+../src/Project 1.c:110:43: note: declared here
+ int32_t PART_C(int32_t data_size, int32_t data[])
+                                           ^
+../src/Project 1.c:130:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:130:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:56:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:120:34: warning: ‘sizeof’ on array function parameter ‘data’ will return size of ‘int32_t * {aka int *}’ [-Wsizeof-array-argument]
+   write(pipefd[1], buffer, sizeof(data));
+                                  ^
+../src/Project 1.c:110:43: note: declared here
+ int32_t PART_C(int32_t data_size, int32_t data[])
+                                           ^
+../src/Project 1.c:130:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:130:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:57:00 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:120:34: warning: ‘sizeof’ on array function parameter ‘data’ will return size of ‘int32_t * {aka int *}’ [-Wsizeof-array-argument]
+   write(pipefd[1], buffer, sizeof(data));
+                                  ^
+../src/Project 1.c:110:43: note: declared here
+ int32_t PART_C(int32_t data_size, int32_t data[])
+                                           ^
+../src/Project 1.c:130:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:132:42: error: subscripted value is neither array nor pointer nor vector
+    printf("read from array: %d\n", buffer[0]);
+                                          ^
+../src/Project 1.c:130:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+15:57:16 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:120:34: warning: ‘sizeof’ on array function parameter ‘data’ will return size of ‘int32_t * {aka int *}’ [-Wsizeof-array-argument]
+   write(pipefd[1], buffer, sizeof(data));
+                                  ^
+../src/Project 1.c:110:43: note: declared here
+ int32_t PART_C(int32_t data_size, int32_t data[])
+                                           ^
+../src/Project 1.c:130:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:130:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:139:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:57:28 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_A’:
+../src/Project 1.c:69:14: warning: implicit declaration of function ‘getpid’ [-Wimplicit-function-declaration]
+  pid_t pid = getpid();
+              ^
+../src/Project 1.c:70:15: warning: implicit declaration of function ‘getppid’ [-Wimplicit-function-declaration]
+  pid_t ppid = getppid();
+               ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:85:6: warning: implicit declaration of function ‘pipe’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+      ^
+../src/Project 1.c:88:15: warning: implicit declaration of function ‘fork’ [-Wimplicit-function-declaration]
+   pid_t pid = fork();
+               ^
+../src/Project 1.c:105:4: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+    sleep(10);
+    ^
+../src/Project 1.c:106:4: warning: implicit declaration of function ‘write’ [-Wimplicit-function-declaration]
+    write(pipefd[1], "hello world\n", 12);
+    ^
+../src/Project 1.c:83:7: warning: unused variable ‘buffer’ [-Wunused-variable]
+  char buffer[30];
+       ^
+../src/Project 1.c:82:26: warning: unused variable ‘pid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+                          ^
+../src/Project 1.c:82:8: warning: unused variable ‘ppid’ [-Wunused-variable]
+  pid_t ppid = getppid(), pid = getpid();
+        ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  int32_t buffer = data;
+                   ^
+../src/Project 1.c:120:34: warning: ‘sizeof’ on array function parameter ‘data’ will return size of ‘int32_t * {aka int *}’ [-Wsizeof-array-argument]
+   write(pipefd[1], buffer, sizeof(data));
+                                  ^
+../src/Project 1.c:110:43: note: declared here
+ int32_t PART_C(int32_t data_size, int32_t data[])
+                                           ^
+../src/Project 1.c:130:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    int a = read(pipefd[0], buffer, 4);
+            ^
+../src/Project 1.c:130:8: warning: unused variable ‘a’ [-Wunused-variable]
+    int a = read(pipefd[0], buffer, 4);
+        ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:140:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 

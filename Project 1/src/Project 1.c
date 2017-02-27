@@ -33,10 +33,10 @@ int32_t max_of_array(int32_t n, int32_t data[]);
  */
 
 int32_t PART_A(int32_t data_size, int32_t data[]);
-//int32_t PART_B(int32_t data_size, int32_t data[]);
-//int32_t PART_C(int32_t data_size, int32_t data[]);
-//int32_t PART_D(int32_t data_size, int32_t data[]);
-//int32_t PART_EC(int32_t data_size, int32_t data[]);
+int32_t PART_B(int32_t data_size, int32_t data[]);
+int32_t PART_C(int32_t data_size, int32_t data[]);
+int32_t PART_D(int32_t data_size, int32_t data[]);
+int32_t PART_EC(int32_t data_size, int32_t data[]);
 
 /*
  * Misc. functions.
@@ -59,17 +59,83 @@ int main(void)
 	read_file(data_size, data, f_read);
 	//printf("Successfully read from file...\n");
 
-	PART_A(data_size, data);
+	//PART_A(data_size, data);
+	//PART_B(data_size, data);
+	PART_C(data_size, data);
 	return EXIT_SUCCESS;
 }
 int32_t PART_A(int32_t data_size, int32_t data[])
 {
+	pid_t pid = getpid();
+	pid_t ppid = getppid();
+
 	printf("Running Part A...\n\n");
-	printf("Hi, I'm process %d, and my parent is %d.\n", getpid(), getppid());
+	printf("Hi, I'm process %d, and my parent is %d.\n", pid, ppid);
 	printf("The maximum value is: %d\n", max_of_array(data_size, data));
 	printf("The minimum value is: %d\n", min_of_array(data_size, data));
 	printf("The sum of the array is: %d\n", sum_of_array(data_size, data));
 	return 0;
+}
+
+int32_t PART_B(int32_t data_size, int32_t data[])
+{
+	pid_t ppid = getppid(), pid = getpid();
+	char buffer[30];
+	int pipefd[2];
+	if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+
+	for (int i = 0; i < 5; i++) {
+		pid_t pid = fork();
+
+		if (pid > 0) {
+			// parent
+			printf("in parent with pid %d\n", getpid());
+
+		} else if (pid == 0) {
+			// child
+			printf("in child with pid %d\n", getpid());
+			exit(0);
+		} else {
+			printf("fork error\n");
+			exit(1);
+		}
+	}
+		for (int i = 0; i < 5; i++) {
+			printf("I could be doing some work here\n");
+			sleep(10);
+			write(pipefd[1], "hello world\n", 12);
+		}
+}
+
+int32_t PART_C(int32_t data_size, int32_t data[])
+{
+	int32_t buffer = data;
+	int pipefd[2];
+	if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
+
+	for (int i = 0; i < 5; i++)
+	{
+		printf("idk\n");
+		//sleep(10);
+		write(pipefd[1], buffer, 4);
+	}
+
+	for (int i = 0; i < 5; i++)
+	{
+		pid_t pid = fork();
+		if (pid > 0) { printf("in parent process (pid = %d)\n", getpid()); }
+		else if (pid == 0)
+		{
+			printf("in child process (pid = %d)\n", pid);
+			int a = read(pipefd[0], buffer, 4);
+			//buffer[a]
+			printf("read from array: %d\n", buffer);
+			//exit(0);
+		}
+		else { printf("fork error\n"); return -1; }
+	}
+
+
 }
 
 int32_t write_random_nums(int32_t n, FILE * f)
