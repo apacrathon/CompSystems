@@ -2231,3 +2231,583 @@ make: Nothing to be done for 'all'.
 12:49:38 **** Incremental Build of configuration Debug for project Project 1 ****
 make all 
 make: Nothing to be done for 'all'.
+12:52:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:75:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t ** {aka int **}’ [-Wformat=]
+   fscanf(f, "%d", &data[i]);
+             ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+12:53:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:73:26: warning: passing argument 3 of ‘fread’ makes integer from pointer without a cast [-Wint-conversion]
+  fread(f, sizeof(*data), *data);
+                          ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:709:15: note: expected ‘size_t {aka long unsigned int}’ but argument is of type ‘int32_t * {aka int *}’
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+ extern size_t fread (void *__restrict __ptr, size_t __size,
+               ^
+../src/Project 1.c:73:2: error: too few arguments to function ‘fread’
+  fread(f, sizeof(*data), *data);
+  ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:709:15: note: declared here
+ extern size_t fread (void *__restrict __ptr, size_t __size,
+               ^
+make: *** [src/Project 1.o] Error 1
+12:53:42 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:73:30: warning: passing argument 3 of ‘fread’ makes integer from pointer without a cast [-Wint-conversion]
+  fread(*data, sizeof(*data), f);
+                              ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:709:15: note: expected ‘size_t {aka long unsigned int}’ but argument is of type ‘FILE * {aka struct _IO_FILE *}’
+ extern size_t fread (void *__restrict __ptr, size_t __size,
+               ^
+../src/Project 1.c:73:2: error: too few arguments to function ‘fread’
+  fread(*data, sizeof(*data), f);
+  ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:709:15: note: declared here
+ extern size_t fread (void *__restrict __ptr, size_t __size,
+               ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+12:54:48 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:73:29: warning: passing argument 3 of ‘fread’ makes integer from pointer without a cast [-Wint-conversion]
+  fread(data, sizeof(*data), f);
+                             ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:709:15: note: expected ‘size_t {aka long unsigned int}’ but argument is of type ‘FILE * {aka struct _IO_FILE *}’
+ extern size_t fread (void *__restrict __ptr, size_t __size,
+               ^
+../src/Project 1.c:73:2: error: too few arguments to function ‘fread’
+  fread(data, sizeof(*data), f);
+  ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:709:15: note: declared here
+ extern size_t fread (void *__restrict __ptr, size_t __size,
+               ^
+make: *** [src/Project 1.o] Error 1
+12:56:35 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+12:59:24 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+12:59:54 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:75:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f,"%d",(*data)[i]);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:00:15 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:76:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f,"%d",(*data)[i]);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:01:07 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int **’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:76:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
+   fscanf(f,"%d",(*data)[i]);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:01:16 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int **’ but argument is of type ‘int’
+ int32_t read_file(int32_t n, int * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:76:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int’ [-Wformat=]
+   fscanf(f,"%d",(*data)[i]);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:01:44 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:02:29 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:02:37 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:02:50 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:03:57 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:75:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t ** {aka int **}’ [-Wformat=]
+   fscanf(f,"%d",(&data)[i]);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:04:07 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:75:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t ** {aka int **}’ [-Wformat=]
+   fscanf(f,"%d",&data[i]);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:04:24 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:75:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t ** {aka int **}’ [-Wformat=]
+   fscanf(f,"%d",&data[i]);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:06:07 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:36:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int32_t * {aka int *}’ [-Wformat=]
+   printf("%d\n", data[i]);
+          ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:75:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t ** {aka int **}’ [-Wformat=]
+   fscanf(f,"%d",(&data)[i]);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:06:23 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+13:06:47 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:36:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int32_t * {aka int *}’ [-Wformat=]
+   printf("%d\n", data[i]);
+          ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:06:51 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:36:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int32_t * {aka int *}’ [-Wformat=]
+   printf("%d\n", data[i]);
+          ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:75:12: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f,"%d",(*data)[i]);
+            ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:07:55 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:36:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int32_t * {aka int *}’ [-Wformat=]
+   printf("%d\n", data[i]);
+          ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:08:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:36:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int32_t * {aka int *}’ [-Wformat=]
+   printf("%d\n", data[i]);
+          ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:76:13: warning: passing argument 2 of ‘fscanf’ makes pointer from integer without a cast [-Wint-conversion]
+   fscanf(f, (*data)[i]);
+             ^
+In file included from /usr/include/features.h:367:0,
+                 from /usr/include/stdio.h:27,
+                 from ../src/Project 1.c:12:
+/usr/include/stdio.h:443:12: note: expected ‘const char * restrict’ but argument is of type ‘int32_t {aka int}’
+ extern int __REDIRECT (fscanf, (FILE *__restrict __stream,
+            ^
+../src/Project 1.c:76:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fscanf(f, (*data)[i]);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:08:51 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:36:10: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int32_t * {aka int *}’ [-Wformat=]
+   printf("%d\n", data[i]);
+          ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:76:13: warning: passing argument 2 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fscanf(f, &(*data)[i]);
+             ^
+In file included from /usr/include/features.h:367:0,
+                 from /usr/include/stdio.h:27,
+                 from ../src/Project 1.c:12:
+/usr/include/stdio.h:443:12: note: expected ‘const char * restrict’ but argument is of type ‘int32_t * {aka int *}’
+ extern int __REDIRECT (fscanf, (FILE *__restrict __stream,
+            ^
+../src/Project 1.c:76:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fscanf(f, &(*data)[i]);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:09:20 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:76:13: warning: passing argument 2 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fscanf(f, &(*data)[i]);
+             ^
+In file included from /usr/include/features.h:367:0,
+                 from /usr/include/stdio.h:27,
+                 from ../src/Project 1.c:12:
+/usr/include/stdio.h:443:12: note: expected ‘const char * restrict’ but argument is of type ‘int32_t * {aka int *}’
+ extern int __REDIRECT (fscanf, (FILE *__restrict __stream,
+            ^
+../src/Project 1.c:76:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fscanf(f, &(*data)[i]);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:09:43 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:76:13: warning: passing argument 2 of ‘fscanf’ from incompatible pointer type [-Wincompatible-pointer-types]
+   fscanf(f, &(*data)[i]);
+             ^
+In file included from /usr/include/features.h:367:0,
+                 from /usr/include/stdio.h:27,
+                 from ../src/Project 1.c:12:
+/usr/include/stdio.h:443:12: note: expected ‘const char * restrict’ but argument is of type ‘int32_t * {aka int *}’
+ extern int __REDIRECT (fscanf, (FILE *__restrict __stream,
+            ^
+../src/Project 1.c:76:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fscanf(f, &(*data)[i]);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+13:12:05 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 

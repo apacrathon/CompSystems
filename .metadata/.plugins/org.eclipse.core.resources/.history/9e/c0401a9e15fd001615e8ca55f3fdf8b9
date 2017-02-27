@@ -16,10 +16,9 @@
 
 
 int32_t write_random_nums(int32_t n, FILE * f);
-int32_t read_file(int32_t n, int32_t data[], FILE * f);
+int32_t read_file(int32_t n, int32_t * data[], FILE * f);
 
-int main(void)
-{
+int main(void) {
 	srand(time(NULL));
 
 	FILE * f_write = fopen("random.list", "w");
@@ -29,7 +28,7 @@ int main(void)
 	write_random_nums(data_size, f_write);
 	printf("Successfully wrote to file...\n");
 	printf("Reading from file...\n");
-	read_file(data_size, data, f_read);
+	read_file(data_size, *data, f_read);
 	printf("Successfully read from file...\n");
 
 	for (int32_t i = 0; i < data_size; i++)
@@ -61,7 +60,7 @@ int32_t write_random_nums(int32_t n, FILE * f)
 	return result;
 }
 
-int32_t read_file(int32_t n, int32_t data[], FILE * f)
+int32_t read_file(int32_t n, int32_t * data[], FILE * f)
 {
 	int32_t result = 0;
 
@@ -71,7 +70,7 @@ int32_t read_file(int32_t n, int32_t data[], FILE * f)
 	    exit(1);
 	}
 
-	for (int i = 0; i < n; i++)
+	for (int32_t i = 0; i < n; i ++)
 	{
 		fscanf(f, "%d", &data[i]);
 	}

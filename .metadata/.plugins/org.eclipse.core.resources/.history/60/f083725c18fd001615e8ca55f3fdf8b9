@@ -71,6 +71,7 @@ int32_t read_file(int32_t n, int32_t data[], FILE * f)
 	    exit(1);
 	}
 
+	printf("test");
 	for (int i = 0; i < n; i++)
 	{
 		fscanf(f, "%d", &data[i]);
