@@ -1843,3 +1843,391 @@ Invoking: GCC C Linker
 gcc  -o "Project 1"  ./src/Project\ 1.o   
 Finished building target: Project 1
  
+14:52:29 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:19: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(*data, data_size);
+                   ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c:28:2: error: too few arguments to function ‘read_file’
+  read_file(*data, data_size);
+  ^
+../src/Project 1.c:19:9: note: declared here
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:66:3: warning: implicit declaration of function ‘fscaf’ [-Wimplicit-function-declaration]
+   fscaf(f, "%d", *data[i]);
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+   ^
+../src/Project 1.c:56:10: warning: unused variable ‘result’ [-Wunused-variable]
+  int32_t result = 0;
+          ^
+../src/Project 1.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+14:52:53 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:66:3: warning: implicit declaration of function ‘fscaf’ [-Wimplicit-function-declaration]
+   fscaf(f, "%d", *data[i]);
+   ^
+../src/Project 1.c:56:10: warning: unused variable ‘result’ [-Wunused-variable]
+  int32_t result = 0;
+          ^
+../src/Project 1.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+./src/Project 1.o: In function `read_file':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:66: undefined reference to `fscaf'
+collect2: error: ld returned 1 exit status
+make: *** [Project 1] Error 1
+makefile:30: recipe for target 'Project 1' failed
+14:53:05 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:66:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+../src/Project 1.c:56:10: warning: unused variable ‘result’ [-Wunused-variable]
+  int32_t result = 0;
+          ^
+../src/Project 1.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:54:01 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c:32:18: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+   printf("%d\n", *data[i]);
+                  ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:71:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+../src/Project 1.c:61:10: warning: unused variable ‘result’ [-Wunused-variable]
+  int32_t result = 0;
+          ^
+../src/Project 1.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+14:54:18 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c:32:25: error: subscripted value is neither array nor pointer nor vector
+   printf("%d\n", (*data)[i]);
+                         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:71:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+../src/Project 1.c:61:10: warning: unused variable ‘result’ [-Wunused-variable]
+  int32_t result = 0;
+          ^
+../src/Project 1.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+14:54:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c:32:18: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+   printf("%d\n", *data[i]);
+                  ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:71:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+../src/Project 1.c:61:10: warning: unused variable ‘result’ [-Wunused-variable]
+  int32_t result = 0;
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+          ^
+../src/Project 1.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+14:54:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c:32:18: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+   printf("%d\n", *data[i]);
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+                  ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:71:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+../src/Project 1.c:61:10: warning: unused variable ‘result’ [-Wunused-variable]
+  int32_t result = 0;
+          ^
+../src/Project 1.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+14:54:47 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c:32:18: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+   printf("%d\n", *data[i]);
+                  ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:71:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+../src/Project 1.c:61:10: warning: unused variable ‘result’ [-Wunused-variable]
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+  int32_t result = 0;
+          ^
+../src/Project 1.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+14:55:08 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:71:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+../src/Project 1.c:61:10: warning: unused variable ‘result’ [-Wunused-variable]
+  int32_t result = 0;
+          ^
+../src/Project 1.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:55:17 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:55:55 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:28:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:71:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:56:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:57:01 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:29:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:72:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:57:25 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:30:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:74:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:58:26 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:75:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+14:58:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+14:58:32 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+15:00:55 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:31:23: warning: passing argument 2 of ‘read_file’ makes pointer from integer without a cast [-Wint-conversion]
+  read_file(data_size, *data, f_read);
+                       ^
+../src/Project 1.c:19:9: note: expected ‘int32_t ** {aka int **}’ but argument is of type ‘int32_t {aka int}’
+ int32_t read_file(int32_t n, int32_t * data[], FILE * f);
+         ^
+../src/Project 1.c: In function ‘read_file’:
+../src/Project 1.c:75:13: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘int32_t {aka int}’ [-Wformat=]
+   fscanf(f, "%d", *data[i]);
+             ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+15:00:58 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+12:49:38 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.

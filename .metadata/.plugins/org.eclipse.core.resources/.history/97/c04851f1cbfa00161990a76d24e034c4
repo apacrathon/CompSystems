@@ -75,7 +75,5 @@ int32_t read_file(int32_t n, int32_t * data[], FILE * f)
 		fscanf(f, "%d", *data[i]);
 	}
 
-	result = fclose(f);
-
 	return result;
 }

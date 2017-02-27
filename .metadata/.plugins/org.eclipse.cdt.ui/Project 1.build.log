@@ -1,22 +1,6 @@
-14:23:01 **** Incremental Build of configuration Debug for project Project 1 ****
+12:49:38 **** Incremental Build of configuration Debug for project Project 1 ****
 make all 
-Building file: ../src/Project 1.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
-../src/Project 1.c: In function ‘main’:
-../src/Project 1.c:22:24: warning: passing argument 2 of ‘write_random_nums’ makes integer from pointer without a cast [-Wint-conversion]
-  write_random_nums(10, "file.txt");
-                        ^
-../src/Project 1.c:17:6: note: expected ‘char’ but argument is of type ‘char *’
- void write_random_nums(int32_t n, char file_name);
-      ^
-Finished building: ../src/Project 1.c
- 
-Building target: Project 1
-Invoking: GCC C Linker
-gcc  -o "Project 1"  ./src/Project\ 1.o   
-Finished building target: Project 1
- 
+make: Nothing to be done for 'all'.
 
-14:23:01 Build Finished (took 130ms)
+12:49:38 Build Finished (took 94ms)
 

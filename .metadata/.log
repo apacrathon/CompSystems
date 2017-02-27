@@ -163,3 +163,8 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.core.resources 4 372 2017-02-24 13:29:02.681
 !MESSAGE Resource '/test' is not open.
+
+!ENTRY org.eclipse.core.resources 2 2 2017-02-24 14:43:10.586
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-02-24 14:43:10.586
+!MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
