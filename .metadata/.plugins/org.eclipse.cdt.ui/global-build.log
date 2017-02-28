@@ -10054,3 +10054,2291 @@ Invoking: GCC C Linker
 gcc  -o "Project 1"  ./src/Project\ 1.o   
 Finished building target: Project 1
  
+19:53:18 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+19:53:31 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+19:53:39 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+19:54:35 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+19:54:42 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+19:55:18 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+19:55:31 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+19:57:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:111:8: error: assignment to expression with array type
+  stats = shmat(shmid, (void *)0, 0);
+        ^
+../src/Project 1.c:112:12: warning: comparison between pointer and integer
+  if (stats == (int)(-1)) {
+            ^
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+19:57:46 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:111:8: error: assignment to expression with array type
+  stats = shmat(shmid, (void *)0, 0);
+        ^
+../src/Project 1.c:112:12: warning: comparison between pointer and integer
+  if (stats == (int)(-1)) {
+            ^
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+19:59:26 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:99:10: warning: unused variable ‘shmid’ [-Wunused-variable]
+  int32_t shmid;
+          ^
+../src/Project 1.c:98:8: warning: unused variable ‘key’ [-Wunused-variable]
+  key_t key = 1337;
+        ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:155:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:04:09 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:117: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats * = { min, max, sum };
+                                                                                                                     ^
+../src/Project 1.c:111:2: error: ‘stats’ undeclared (first use in this function)
+  stats = shmat(shmid, (void *)0, 0);
+  ^
+../src/Project 1.c:111:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats * = { min, max, sum };
+                     ^
+../src/Project 1.c:95:40: warning: unused variable ‘sum’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                        ^
+../src/Project 1.c:95:25: warning: unused variable ‘max’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                         ^
+../src/Project 1.c:95:10: warning: unused variable ‘min’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+          ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+20:06:39 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:111:2: error: ‘stats’ undeclared (first use in this function)
+  stats = shmat(shmid, (void *)0, 0);
+  ^
+../src/Project 1.c:111:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/Project 1.c:140:9: error: ‘stats_buffer’ undeclared (first use in this function)
+     if (stats_buffer[0] > data_buffer[j]) { stats_buffer[0] = data_buffer[j]; }
+         ^
+../src/Project 1.c:101:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c:95:40: warning: unused variable ‘sum’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                        ^
+../src/Project 1.c:95:25: warning: unused variable ‘max’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                         ^
+../src/Project 1.c:95:10: warning: unused variable ‘min’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+          ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+20:09:39 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:102:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c:95:40: warning: unused variable ‘sum’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                        ^
+../src/Project 1.c:95:25: warning: unused variable ‘max’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                         ^
+../src/Project 1.c:95:10: warning: unused variable ‘min’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+          ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:10:23 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:102:10: warning: unused variable ‘mode’ [-Wunused-variable]
+  int32_t mode;
+          ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c:95:40: warning: unused variable ‘sum’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                        ^
+../src/Project 1.c:95:25: warning: unused variable ‘max’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                         ^
+../src/Project 1.c:95:10: warning: unused variable ‘min’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+          ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:10:34 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:11:38 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c:95:40: warning: unused variable ‘sum’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                        ^
+../src/Project 1.c:95:25: warning: unused variable ‘max’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                         ^
+../src/Project 1.c:95:10: warning: unused variable ‘min’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+          ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:12:49 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:33: warning: unused variable ‘data_buffer’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                                 ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c:96:10: warning: unused variable ‘pipefd’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+          ^
+../src/Project 1.c:95:64: warning: unused variable ‘data_per_process’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                                ^
+../src/Project 1.c:95:49: warning: unused variable ‘num_processes’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                 ^
+../src/Project 1.c:95:40: warning: unused variable ‘sum’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                        ^
+../src/Project 1.c:95:25: warning: unused variable ‘max’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                         ^
+../src/Project 1.c:95:10: warning: unused variable ‘min’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+          ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:13:13 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:33: warning: unused variable ‘data_buffer’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                                 ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c:96:10: warning: unused variable ‘pipefd’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+          ^
+../src/Project 1.c:95:64: warning: unused variable ‘data_per_process’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                                ^
+../src/Project 1.c:95:49: warning: unused variable ‘num_processes’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                 ^
+../src/Project 1.c:95:40: warning: unused variable ‘sum’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                        ^
+../src/Project 1.c:95:25: warning: unused variable ‘max’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                         ^
+../src/Project 1.c:95:10: warning: unused variable ‘min’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+          ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:14:23 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:33: warning: unused variable ‘data_buffer’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                                 ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c:96:10: warning: unused variable ‘pipefd’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+          ^
+../src/Project 1.c:95:64: warning: unused variable ‘data_per_process’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                                ^
+../src/Project 1.c:95:49: warning: unused variable ‘num_processes’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                 ^
+../src/Project 1.c:95:40: warning: unused variable ‘sum’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                        ^
+../src/Project 1.c:95:25: warning: unused variable ‘max’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                         ^
+../src/Project 1.c:95:10: warning: unused variable ‘min’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+          ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:14:31 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:32 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:04 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:33: warning: unused variable ‘data_buffer’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                                 ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c:96:10: warning: unused variable ‘pipefd’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+          ^
+../src/Project 1.c:95:64: warning: unused variable ‘data_per_process’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                                ^
+../src/Project 1.c:95:49: warning: unused variable ‘num_processes’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                 ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:15:39 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:33: warning: unused variable ‘data_buffer’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                                 ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c:96:10: warning: unused variable ‘pipefd’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+          ^
+../src/Project 1.c:95:64: warning: unused variable ‘data_per_process’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                                ^
+../src/Project 1.c:95:49: warning: unused variable ‘num_processes’ [-Wunused-variable]
+  int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+                                                 ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:15:51 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:16:04 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:33 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:17:06 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:17:17 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:18:48 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:19:48 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:51 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:21:56 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:22:05 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:22:14 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:22:26 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:23:35 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:23:44 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:24:04 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:24:42 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:113:21: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", *stats[0], *stats[1], *stats[2]);
+                     ^
+../src/Project 1.c:113:32: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", *stats[0], *stats[1], *stats[2]);
+                                ^
+../src/Project 1.c:113:43: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", *stats[0], *stats[1], *stats[2]);
+                                           ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+20:26:47 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:113:29: error: subscripted value is neither array nor pointer nor vector
+  printf("%d %d %d", (*stats)[0], *stats[1], *stats[2]);
+                             ^
+../src/Project 1.c:113:34: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", (*stats)[0], *stats[1], *stats[2]);
+                                  ^
+../src/Project 1.c:113:45: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", (*stats)[0], *stats[1], *stats[2]);
+                                             ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+20:29:41 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:113:21: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", *stats[0], *stats[1], *stats[2]);
+                     ^
+../src/Project 1.c:113:32: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", *stats[0], *stats[1], *stats[2]);
+                                ^
+../src/Project 1.c:113:43: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", *stats[0], *stats[1], *stats[2]);
+                                           ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+20:30:16 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:113:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int32_t * {aka int *}’ [-Wformat=]
+  printf("%d %d %d", &stats[0], &stats[1], &stats[2]);
+         ^
+../src/Project 1.c:113:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘int32_t * {aka int *}’ [-Wformat=]
+../src/Project 1.c:113:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘int32_t * {aka int *}’ [-Wformat=]
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:31:35 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:113:21: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", *(stats[0]), *(stats[1]), *(stats[2]));
+                     ^
+../src/Project 1.c:113:34: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", *(stats[0]), *(stats[1]), *(stats[2]));
+                                  ^
+../src/Project 1.c:113:47: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+  printf("%d %d %d", *(stats[0]), *(stats[1]), *(stats[2]));
+                                               ^
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+20:31:59 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:32:10 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:34:10 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:41 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:36:52 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:37:12 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:97:22: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  int32_t * stats = { min, max, sum };
+                      ^
+../src/Project 1.c:97:22: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:27: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                           ^
+../src/Project 1.c:97:27: note: (near initialization for ‘stats’)
+../src/Project 1.c:97:32: warning: excess elements in scalar initializer
+  int32_t * stats = { min, max, sum };
+                                ^
+../src/Project 1.c:97:32: note: (near initialization for ‘stats’)
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:154:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:38:17 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:158:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c:99:11: warning: ‘stats’ is used uninitialized in this function [-Wuninitialized]
+  stats[0] = min;
+           ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:38:26 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:29 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:158:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:47:08 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:160:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:47:19 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:47:26 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:47:32 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:11 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:160:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:48:20 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:160:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:53:13 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:161:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:55:55 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:161:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:56:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:160:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+20:56:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:96:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size];
+                     ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:160:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:02:07 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:168:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:15:29 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:123:28: warning: implicit declaration of function ‘perr’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { perr("Error creating pipe."); exit(1); }
+                            ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+./src/Project 1.o: In function `PART_C':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:123: undefined reference to `perr'
+makefile:30: recipe for target 'Project 1' failed
+collect2: error: ld returned 1 exit status
+make: *** [Project 1] Error 1
+21:15:37 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+./src/Project 1.o: In function `PART_C':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:123: undefined reference to `perr'
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'Project 1' failed
+make: *** [Project 1] Error 1
+21:15:50 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:17:54 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:114:23: warning: passing argument 1 of ‘printf’ from incompatible pointer type [-Wincompatible-pointer-types]
+  else { (void) printf(stderr, "shmget: returned %d\n", shmid_write); }
+                       ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:362:12: note: expected ‘const char * restrict’ but argument is of type ‘struct _IO_FILE *’
+ extern int printf (const char *__restrict __format, ...);
+            ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:29:18 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:116:75: error: expected expression before ‘}’ token
+  else { (void) /*fprintf(stderr, "shmget: returned %d\n", shmid_write);*/ }
+                                                                           ^
+../src/Project 1.c:106:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+21:29:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:106:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:30:00 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:31:05 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:114:75: error: expected expression before ‘}’ token
+  else { (void) /*fprintf(stderr, "shmget: returned %d\n", shmid_write);*/ }
+                                                                           ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+21:31:12 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:114:75: error: expected expression before ‘}’ token
+  else { (void) /*fprintf(stderr, "shmget: returned %d\n", shmid_write);*/ }
+                                                                           ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+21:31:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:175:2: error: expected ‘;’ before ‘shmdt’
+  shmdt((void *) stats);
+  ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+21:31:31 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:31:37 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:39 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:40 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:41 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:32:41 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:32:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:33:22 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:33:27 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:05 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:174:9: warning: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Wint-conversion]
+  printf(min_of_array(data_size, data));
+         ^
+In file included from ../src/Project 1.c:12:0:
+/usr/include/stdio.h:362:12: note: expected ‘const char * restrict’ but argument is of type ‘int32_t {aka int}’
+ extern int printf (const char *__restrict __format, ...);
+            ^
+../src/Project 1.c:174:2: warning: format not a string literal and no format arguments [-Wformat-security]
+  printf(min_of_array(data_size, data));
+  ^
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:35:19 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:174:105: error: called object ‘sum’ is not a function or function pointer
+  printf("Max = %d\nMin = %d\nSum = %d\n", min_of_array(data_size, data), max_of_array(data_size, data), sum(data_size, data));
+                                                                                                         ^
+../src/Project 1.c:104:40: note: declared here
+  int32_t min = data[0], max = data[0], sum = 0,
+                                        ^
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+21:35:35 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:35:41 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:35:43 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:35:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:36:16 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:123:28: warning: implicit declaration of function ‘perr’ [-Wimplicit-function-declaration]
+  if (pipe(pipefd) == -1) { perr("Error creating pipe."); exit(1); }
+                            ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+./src/Project 1.o: In function `PART_C':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:123: undefined reference to `perr'
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'Project 1' failed
+make: *** [Project 1] Error 1
+21:36:31 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:36:35 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+21:36:58 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:37:18 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:37:43 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:91:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:38:23 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c:128:2: warning: ‘num_processes’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  for (int i = 0; i < num_processes; i++)
+  ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:38:41 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:39:25 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:39:43 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:40:00 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:43:29 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:43:43 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+21:44:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:105:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
