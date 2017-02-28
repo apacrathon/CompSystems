@@ -197,7 +197,7 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 	printf("Max = %d\nMin = %d\nSum = %d\n", stats[0], stats[1], stats[2]);
 	shmdt((void *) stats);
 
-	printf("-------------------Ending Part C-------------------\n");
+	printf("-------------------Ending Part B-------------------\n");
 	return 0;
 }
 
@@ -222,7 +222,6 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 			}
 			else { printf("fork error\n"); return -1; }
 	}
-	printf("-------------------Ending Part D-------------------\n");
 	return 1;
 }
 

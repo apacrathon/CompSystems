@@ -12379,3 +12379,77 @@ Invoking: GCC C Linker
 gcc  -o "Project 1"  ./src/Project\ 1.o   
 Finished building target: Project 1
  
+22:01:38 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0,num_processes - 2);
+   ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:130:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:219:5: warning: implicit declaration of function ‘newFork1’ [-Wimplicit-function-declaration]
+     newFork1(0,1);
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:313:6: warning: conflicting types for ‘newFork’
+ void newFork(int i,int n)
+      ^
+../src/Project 1.c:108:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0,num_processes - 2);
+   ^
+../src/Project 1.c:330:6: warning: conflicting types for ‘newFork1’
+ void newFork1(int i,int n)
+      ^
+../src/Project 1.c:219:5: note: previous implicit declaration of ‘newFork1’ was here
+     newFork1(0,1);
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:02:18 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:108:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0,num_processes - 2);
+   ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:130:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:219:5: warning: implicit declaration of function ‘newFork1’ [-Wimplicit-function-declaration]
+     newFork1(0,1);
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:314:6: warning: conflicting types for ‘newFork’
+ void newFork(int i,int n)
+      ^
+../src/Project 1.c:108:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0,num_processes - 2);
+   ^
+../src/Project 1.c:331:6: warning: conflicting types for ‘newFork1’
+ void newFork1(int i,int n)
+      ^
+../src/Project 1.c:219:5: note: previous implicit declaration of ‘newFork1’ was here
+     newFork1(0,1);
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 

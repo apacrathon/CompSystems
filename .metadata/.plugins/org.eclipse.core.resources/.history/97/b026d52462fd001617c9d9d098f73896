@@ -80,18 +80,17 @@ int32_t PART_A(int32_t data_size, int32_t data[])
 	pid_t pid = getpid();
 	pid_t ppid = getppid();
 
-	printf("\n-------------------Running Part A-------------------\n");
+	printf("Running Part A...\n\n");
 	printf("Hi, I'm process %d, and my parent is %d.\n", pid, ppid);
 	printf("The maximum value is: %d\n", max_of_array(data_size, data));
 	printf("The minimum value is: %d\n", min_of_array(data_size, data));
 	printf("The sum of the array is: %d\n", sum_of_array(data_size, data));
-	printf("\n-------------------Ending Part A-------------------\n");
 	return 0;
 }
 
 int32_t PART_B(int32_t data_size, int32_t data[])
 {
-	printf("\n-------------------Running Part B-------------------\n");
+	printf("-------------------Running Part B-------------------\n");
 
 	int num_processes = 5;
 
@@ -197,13 +196,13 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 	printf("Max = %d\nMin = %d\nSum = %d\n", stats[0], stats[1], stats[2]);
 	shmdt((void *) stats);
 
-	printf("-------------------Ending Part C-------------------\n");
+	printf("-------------------Ending Part B-------------------\n");
 	return 0;
 }
 
 int32_t PART_D(int32_t data_size, int32_t data[])
 {
-	printf("\n-------------------Running Part D-------------------\n");
+	printf("-------------------Running Part D-------------------\n");
 	int num_processes = 1;
 	printf("Hi I'm process %d, and my parent is %d.\n", getpid(),getppid());
 	for (int i = 0; i <= num_processes; i++)
@@ -222,7 +221,6 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 			}
 			else { printf("fork error\n"); return -1; }
 	}
-	printf("-------------------Ending Part D-------------------\n");
 	return 1;
 }
 
