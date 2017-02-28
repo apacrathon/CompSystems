@@ -12453,3 +12453,2868 @@ Invoking: GCC C Linker
 gcc  -o "Project 1"  ./src/Project\ 1.o   
 Finished building target: Project 1
  
+22:20:35 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:151:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:174:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:263:5: warning: implicit declaration of function ‘newFork1’ [-Wimplicit-function-declaration]
+     newFork1(0,1);
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:358:6: warning: conflicting types for ‘newFork’
+ void newFork(int i,int n)
+      ^
+../src/Project 1.c:151:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+./src/Project 1.o: In function `PART_D':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:263: undefined reference to `newFork1'
+collect2: error: ld returned 1 exit status
+make: *** [Project 1] Error 1
+makefile:30: recipe for target 'Project 1' failed
+22:20:47 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+./src/Project 1.o: In function `PART_D':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:263: undefined reference to `newFork1'
+makefile:30: recipe for target 'Project 1' failed
+collect2: error: ld returned 1 exit status
+make: *** [Project 1] Error 1
+22:21:03 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:151:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:174:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:358:6: warning: conflicting types for ‘newFork’
+ void newFork(int i,int n)
+      ^
+../src/Project 1.c:151:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:22:20 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:151:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:174:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:358:6: warning: conflicting types for ‘newFork’
+ void newFork(int i,int n)
+      ^
+../src/Project 1.c:151:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:22:31 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:151:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:174:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:358:6: warning: conflicting types for ‘newFork’
+ void newFork(int i,int n)
+      ^
+../src/Project 1.c:151:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:23:36 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:151:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:360:6: warning: conflicting types for ‘newFork’
+ void newFork(int i,int n)
+      ^
+../src/Project 1.c:151:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:23:51 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:151:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:360:6: warning: conflicting types for ‘newFork’
+ void newFork(int i,int n)
+      ^
+../src/Project 1.c:151:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:34:32 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, key, pipefd, data, data_size);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i,int32_t n, key_t key, int32_t pipefd[2], int32_t data[], int32_t data_size)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, key, pipefd, data, data_size);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:422:3: error: too few arguments to function ‘newFork’
+   newFork(i,n);
+   ^
+../src/Project 1.c:364:6: note: declared here
+ void newFork(int32_t i,int32_t n, key_t key, int32_t pipefd[2], int32_t data[], int32_t data_size)
+      ^
+../src/Project 1.c:367:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+22:35:08 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, key, pipefd, data, data_size);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i,int32_t n, key_t key, int32_t pipefd[2], int32_t data[], int32_t data_size)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, key, pipefd, data, data_size);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:367:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:36:28 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, key, &pipefd, data, data_size);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i,int32_t n, key_t key, int32_t pipefd[2], int32_t data[], int32_t data_size)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, key, &pipefd, data, data_size);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:367:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:36:52 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, key, &pipefd, data, data_size);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i,int32_t n, key_t key, int32_t pipefd[2], int32_t data[], int32_t data_size)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, key, &pipefd, data, data_size);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:422:30: warning: passing argument 5 of ‘newFork’ from incompatible pointer type [-Wincompatible-pointer-types]
+   newFork(i, n, key, pipefd, &data, data_size);
+                              ^
+../src/Project 1.c:364:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t ** {aka int **}’
+ void newFork(int32_t i,int32_t n, key_t key, int32_t pipefd[2], int32_t data[], int32_t data_size)
+      ^
+../src/Project 1.c:367:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:39:10 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:151:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:176:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:360:6: warning: conflicting types for ‘newFork’
+ void newFork(int i,int n)
+      ^
+../src/Project 1.c:151:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1);
+   ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:46:29 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:404:3: error: too few arguments to function ‘newFork’
+   newFork(i,n);
+   ^
+../src/Project 1.c:364:6: note: declared here
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+22:46:58 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:404:17: warning: passing argument 3 of ‘newFork’ from incompatible pointer type [-Wincompatible-pointer-types]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t ** {aka int **}’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:47:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:17: warning: passing argument 3 of ‘newFork’ from incompatible pointer type [-Wincompatible-pointer-types]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t ** {aka int **}’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:48:49 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:421:17: warning: passing argument 3 of ‘newFork’ from incompatible pointer type [-Wincompatible-pointer-types]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t ** {aka int **}’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:53:46 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:389:8: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+   read(*pipefd[0], data_buffer, data_per_process*sizeof(int));
+        ^
+../src/Project 1.c:421:17: warning: passing argument 3 of ‘newFork’ from incompatible pointer type [-Wincompatible-pointer-types]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t ** {aka int **}’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+22:55:34 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:389:15: error: subscripted value is neither array nor pointer nor vector
+   read(*pipefd[0], data_buffer, data_per_process*sizeof(int));
+               ^
+../src/Project 1.c:421:17: warning: passing argument 3 of ‘newFork’ makes integer from pointer without a cast [-Wint-conversion]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t {aka int}’ but argument is of type ‘int32_t * {aka int *}’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+22:55:52 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:389:9: error: invalid type argument of unary ‘*’ (have ‘int32_t {aka int}’)
+   read((*pipefd)[0], data_buffer, data_per_process*sizeof(int));
+         ^
+../src/Project 1.c:421:17: warning: passing argument 3 of ‘newFork’ makes integer from pointer without a cast [-Wint-conversion]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t {aka int}’ but argument is of type ‘int32_t * {aka int *}’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+22:56:08 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:421:17: warning: passing argument 3 of ‘newFork’ makes integer from pointer without a cast [-Wint-conversion]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t {aka int}’ but argument is of type ‘int32_t * {aka int *}’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:56:23 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:421:17: warning: passing argument 3 of ‘newFork’ makes integer from pointer without a cast [-Wint-conversion]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t {aka int}’ but argument is of type ‘int32_t * {aka int *}’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:56:34 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:389:16: error: subscripted value is neither array nor pointer nor vector
+   read((pipefd)[0], data_buffer, data_per_process*sizeof(int));
+                ^
+../src/Project 1.c:421:17: warning: passing argument 3 of ‘newFork’ makes integer from pointer without a cast [-Wint-conversion]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t {aka int}’ but argument is of type ‘int32_t * {aka int *}’
+ void newFork(int32_t i, int32_t n, int32_t pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+22:57:05 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:421:17: warning: passing argument 3 of ‘newFork’ from incompatible pointer type [-Wincompatible-pointer-types]
+   newFork(i, n, &pipefd, data, data_size, key);
+                 ^
+../src/Project 1.c:364:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t ** {aka int **}’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+22:57:27 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:01:38 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:02:47 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:369:13: error: ‘stats’ redeclared as different kind of symbol
+  int32_t  * stats, data_buffer[data_size];
+             ^
+../src/Project 1.c:364:110: note: previous definition of ‘stats’ was here
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+                                                                                                              ^
+../src/Project 1.c:418:3: error: too few arguments to function ‘newFork’
+   newFork(i, n, pipefd, data, data_size, key);
+   ^
+../src/Project 1.c:364:6: note: declared here
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+23:03:00 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:369:13: error: ‘stats’ redeclared as different kind of symbol
+  int32_t  * stats, data_buffer[data_size];
+             ^
+../src/Project 1.c:364:110: note: previous definition of ‘stats’ was here
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+                                                                                                              ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+23:03:05 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:369:13: error: ‘stats’ redeclared as different kind of symbol
+  int32_t  * stats, data_buffer[data_size];
+             ^
+../src/Project 1.c:364:110: note: previous definition of ‘stats’ was here
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+                                                                                                              ^
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+23:03:22 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:03:51 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:04:07 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:364:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:367:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:23:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:414:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:417:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:23:53 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:414:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:417:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:24:44 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:25:11 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:25:27 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:25:56 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:26:31 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:27:20 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:28:48 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:417:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:420:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:32:15 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:417:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:420:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:32:59 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:417:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:420:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:33:11 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:417:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:420:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:33:33 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:417:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:420:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:34:24 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:417:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:420:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:37:05 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:417:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:420:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:39:47 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:417:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:420:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:40:39 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:43:15 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+   newFork2(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+    newFork(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork’ was here
+    newFork(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: error: redefinition of ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:416:6: note: previous definition of ‘newFork’ was here
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+make: *** [src/Project 1.o] Error 1
+23:43:22 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+   newFork2(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+    newFork(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork’ was here
+    newFork(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork2’ was here
+   newFork2(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:43:57 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+   newFork2(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+    newFork(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork’ was here
+    newFork(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork2’ was here
+   newFork2(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:44:22 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+   newFork2(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork2’ was here
+   newFork2(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:45:09 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:45:34 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:46:03 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c:29:1: error: expected ‘,’ or ‘;’ before ‘int32_t’
+ int32_t write_random_nums(int32_t n, FILE * f);
+ ^
+../src/Project 1.c: In function ‘main’:
+../src/Project 1.c:64:2: warning: implicit declaration of function ‘write_random_nums’ [-Wimplicit-function-declaration]
+  write_random_nums(data_size, f_write);
+  ^
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+make: *** [src/Project 1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/Project 1.o' failed
+23:46:08 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:46:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:179:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:318:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:257:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:415:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:418:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:473:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:318:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:476:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:48:10 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:178:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:317:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:256:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:413:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:416:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:471:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:317:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:474:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:48:52 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:49:44 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:50:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:50:53 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:415:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:418:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:473:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:476:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:51:13 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:29 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:415:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:418:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:473:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:476:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:51:48 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:415:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:418:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:473:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:476:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:52:10 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:415:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:418:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:473:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:476:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:52:22 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:415:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:418:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:473:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:476:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:53:02 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:181:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:320:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:259:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:320:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:53:15 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:415:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:418:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:473:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:476:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:54:45 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:161:33: warning: passing argument 3 of ‘newFork’ from incompatible pointer type [-Wincompatible-pointer-types]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+                                 ^
+../src/Project 1.c:53:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t (*)[2] {aka int (*)[2]}’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats);
+      ^
+../src/Project 1.c:161:64: warning: passing argument 7 of ‘newFork’ from incompatible pointer type [-Wincompatible-pointer-types]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+                                                                ^
+../src/Project 1.c:53:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t ** {aka int **}’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats);
+      ^
+../src/Project 1.c:102:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:186:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:325:19: warning: passing argument 3 of ‘newFork2’ from incompatible pointer type [-Wincompatible-pointer-types]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+                   ^
+../src/Project 1.c:54:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t (*)[2] {aka int (*)[2]}’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats);
+      ^
+../src/Project 1.c:325:50: warning: passing argument 7 of ‘newFork2’ from incompatible pointer type [-Wincompatible-pointer-types]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+                                                  ^
+../src/Project 1.c:54:6: note: expected ‘int32_t * {aka int *}’ but argument is of type ‘int32_t ** {aka int **}’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats);
+      ^
+../src/Project 1.c:264:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:424:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:482:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
+23:55:04 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:47 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:155:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:96:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:180:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:319:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:258:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:416:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:155:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_PROCESSES - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:419:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:474:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:319:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:477:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   
+Finished building target: Project 1
+ 
