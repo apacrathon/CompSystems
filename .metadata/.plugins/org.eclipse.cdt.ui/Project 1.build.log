@@ -1,4 +1,4 @@
-15:57:28 **** Incremental Build of configuration Debug for project Project 1 ****
+18:32:42 **** Incremental Build of configuration Debug for project Project 1 ****
 make all 
 Building file: ../src/Project 1.c
 Invoking: GCC C Compiler
@@ -33,27 +33,21 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Pr
   pid_t ppid = getppid(), pid = getpid();
         ^
 ../src/Project 1.c: In function ‘PART_C’:
-../src/Project 1.c:112:19: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
-  int32_t buffer = data;
-                   ^
-../src/Project 1.c:120:34: warning: ‘sizeof’ on array function parameter ‘data’ will return size of ‘int32_t * {aka int *}’ [-Wsizeof-array-argument]
-   write(pipefd[1], buffer, sizeof(data));
-                                  ^
-../src/Project 1.c:110:43: note: declared here
- int32_t PART_C(int32_t data_size, int32_t data[])
-                                           ^
-../src/Project 1.c:130:12: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
-    int a = read(pipefd[0], buffer, 4);
-            ^
-../src/Project 1.c:130:8: warning: unused variable ‘a’ [-Wunused-variable]
-    int a = read(pipefd[0], buffer, 4);
-        ^
+../src/Project 1.c:121:2: warning: implicit declaration of function ‘close’ [-Wimplicit-function-declaration]
+  close(pipefd[1]);
+  ^
+../src/Project 1.c:134:4: warning: implicit declaration of function ‘read’ [-Wimplicit-function-declaration]
+    read(pipefd[0], data_buffer, data_per_process*sizeof(int));
+    ^
+../src/Project 1.c:113:21: warning: unused variable ‘pipefd2’ [-Wunused-variable]
+  int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+                     ^
 ../src/Project 1.c: In function ‘PART_B’:
 ../src/Project 1.c:108:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
 ../src/Project 1.c: In function ‘PART_C’:
-../src/Project 1.c:140:1: warning: control reaches end of non-void function [-Wreturn-type]
+../src/Project 1.c:153:1: warning: control reaches end of non-void function [-Wreturn-type]
  }
  ^
 Finished building: ../src/Project 1.c
@@ -64,5 +58,5 @@ gcc  -o "Project 1"  ./src/Project\ 1.o
 Finished building target: Project 1
  
 
-15:57:29 Build Finished (took 119ms)
+18:32:42 Build Finished (took 130ms)
 

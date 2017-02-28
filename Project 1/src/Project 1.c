@@ -49,7 +49,7 @@ int main(void)
 
 	FILE * f_write = fopen("random.list", "w");
 	FILE * f_read = fopen("random.list", "r");
-	int32_t data_size = 10, data[data_size];
+	int32_t data_size = 100, data[data_size];
 
 	//printf("\nWriting to file...\n");
 	write_random_nums(data_size, f_write);
@@ -109,33 +109,47 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 
 int32_t PART_C(int32_t data_size, int32_t data[])
 {
-	int32_t buffer = data;
-	int pipefd[2];
+	int32_t min = data[0], max = data[0], sum = 0, num_processes, data_per_process;
+	int32_t pipefd[2], pipefd2[2], data_buffer[data_size], stats_buffer[3] = { data[0], data[data_size - 1] ,0}, stats[3] = { min, max, sum };
+
+	num_processes = data_size / 10;
+	data_per_process = 10;
+
 	if (pipe(pipefd) == -1) { printf("Error creating pipe."); return -1; }
 
-	for (int i = 0; i < 5; i++)
-	{
-		printf("idk\n");
-		//sleep(10);
-		write(pipefd[1], buffer, 4);
-	}
+	write(pipefd[1], data, data_size*sizeof(int));
+	close(pipefd[1]);
 
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < num_processes; i++)
 	{
 		pid_t pid = fork();
-		if (pid > 0) { printf("in parent process (pid = %d)\n", getpid()); }
+		sleep(2);
+		if (pid > 0)
+		{
+			printf("in parent process (pid = %d)\n", getpid());
+		}
 		else if (pid == 0)
 		{
-			printf("in child process (pid = %d)\n", pid);
-			int a = read(pipefd[0], buffer, 4);
-			//buffer[a]
-			printf("read from array: %d\n", buffer);
-			//exit(0);
+			printf("in child process (pid = %d, ppid = %d)\n", getpid(), getppid());
+			read(pipefd[0], data_buffer, data_per_process*sizeof(int));
+
+			for (int j = 0; j < data_per_process; j++)
+			{
+				if (stats_buffer[0] > data_buffer[j]) { stats_buffer[0] = data_buffer[j]; }
+				if (stats_buffer[1] < data_buffer[j]) { stats_buffer[1] = data_buffer[j]; }
+				stats_buffer[2] += data_buffer[j];
+			}
+
+			print_array(3, stats_buffer);
+			printf("\n");
+			sleep(15);
+			exit(0);
 		}
 		else { printf("fork error\n"); return -1; }
 	}
 
-
+	printf("min: %d, max: %d, sum: %d\n", stats[0], stats[1], stats[2]);
+	printf("min2: %d, max2: %d, sum2: %d\n", min_of_array(data_size, data), max_of_array(data_size, data), sum_of_array(data_size, data));
 }
 
 int32_t write_random_nums(int32_t n, FILE * f)
