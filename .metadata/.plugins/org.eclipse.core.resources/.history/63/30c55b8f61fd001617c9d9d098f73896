@@ -68,11 +68,9 @@ int main(void)
 	read_file(data_size, data, f_read);
 	//printf("Successfully read from file...\n");
 
-	PART_A(data_size, data);
-	PART_B(data_size, data);
+	//PART_A(data_size, data);
+	//PART_B(data_size, data);
 	PART_C(data_size, data);
-	PART_D(data_size, data);
-
 	return EXIT_SUCCESS;
 }
 int32_t PART_A(int32_t data_size, int32_t data[])

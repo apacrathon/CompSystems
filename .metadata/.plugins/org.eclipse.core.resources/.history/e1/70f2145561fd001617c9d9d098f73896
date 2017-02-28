@@ -68,11 +68,9 @@ int main(void)
 	read_file(data_size, data, f_read);
 	//printf("Successfully read from file...\n");
 
-	PART_A(data_size, data);
-	PART_B(data_size, data);
+	//PART_A(data_size, data);
+	//PART_B(data_size, data);
 	PART_C(data_size, data);
-	PART_D(data_size, data);
-
 	return EXIT_SUCCESS;
 }
 int32_t PART_A(int32_t data_size, int32_t data[])
@@ -90,28 +88,7 @@ int32_t PART_A(int32_t data_size, int32_t data[])
 
 int32_t PART_B(int32_t data_size, int32_t data[])
 {
-	printf("-------------------Running Part B-------------------\n");
 
-	int num_processes = 5;
-
-	pid_t pid;
-	pid = fork ();
-	if (pid != 0)
-	{
-		printf ("Hi I'm process %d and my parent is %d.\n",getpid (), getppid ());
-
-	}
-	else
-	{
-		printf ("Hi I'm process %d and my parent is %d.\n",getpid (), getppid ());
-		newFork(0,num_processes - 2);
-		sleep(1);
-		exit(5);
-	}
-	sleep(3);
-	printf("-------------------Ending Part B-------------------\n");
-
-return 0;
 }
 
 int32_t PART_C(int32_t data_size, int32_t data[])
@@ -200,30 +177,6 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 	return 0;
 }
 
-int32_t PART_D(int32_t data_size, int32_t data[])
-{
-	printf("-------------------Running Part D-------------------\n");
-	int num_processes = 1;
-	printf("Hi I'm process %d, and my parent is %d.\n", getpid(),getppid());
-	for (int i = 0; i <= num_processes; i++)
-	{
-			pid_t pid = fork();
-
-			if (pid > 0)
-			{
-			}
-			else if (pid == 0)
-			{
-				printf("Hi I'm process %d, and my parent is %d.\n", getpid(),getppid());
-				newFork1(0,1);
-				sleep(2);
-				exit(5);
-			}
-			else { printf("fork error\n"); return -1; }
-	}
-	return 1;
-}
-
 int32_t write_random_nums(int32_t n, FILE * f)
 {
 
@@ -306,39 +259,5 @@ void print_array(int32_t n, int32_t data[])
 	for (int32_t i = 0; i < n; i++)
 	{
 		printf("%d\n", data[i]);
-	}
-}
-
-void newFork(int i,int n)
-{
-
-	if(i >= n){
-		return;
-	}
-	pid_t pid = fork();
-	if(pid != 0)
-	{		}
-	else
-	{
-		printf ("Hi I'm process %d and my parent is %d.\n",getpid (), getppid ());
-		i++;
-		newFork(i,n);
-	}
-}
-
-void newFork1(int i,int n)
-{
-
-	if(i >= n){
-		return;
-	}
-	pid_t pid = fork();
-	if(pid != 0)
-	{		}
-	else
-	{
-		printf ("\tHi I'm process %d and my parent is %d.\n",getpid (), getppid ());
-		i++;
-		newFork1(i,n);
 	}
 }
