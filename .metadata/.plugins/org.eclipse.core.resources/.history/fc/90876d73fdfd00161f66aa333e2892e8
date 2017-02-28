@@ -71,8 +71,8 @@ int main(void)
 
 	PART_A(data_size, data);
 	PART_B(data_size, data);
-	PART_C(data_size, data);
-	PART_D(data_size, data);
+	//PART_C(data_size, data);
+	//PART_D(data_size, data);
 
 	return EXIT_SUCCESS;
 }
@@ -155,6 +155,7 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 			sum += data_buffer[j];
 			if (count >= data_size) { break; }
 			else { count++; }
+			printf("%d\n", data_buffer[j]);
 		}
 
 		/*
@@ -308,7 +309,7 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 	//	if (ceil((double) data_size / total_processes) > (data_size / total_processes)) { NUM_CHILD++, total_processes = NUM_CHILD * NUM_GRANDCHILDREN; }
 	data_per_process = ceil((double)data_size / total_processes);
 
-	//printf("data per processes: %d, child: %d, gchild: %d, total_p: %d\n", data_per_process, NUM_CHILD, NUM_GRANDCHILDREN, total_processes);
+	printf("data per processes: %d, child: %d, gchild: %d, total_p: %d\n", data_per_process, NUM_CHILD, NUM_GRANDCHILDREN, total_processes);
 
 	// Create pipe, send data array from parent end, and close the parent write end.
 	if (pipe(pipefd) == -1) { printf("Error creating pipe."); exit(1); }
@@ -541,7 +542,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 
 	//	if (ceil((double) data_size / total_processes) > (data_size / total_processes)) { NUM_CHILD++, total_processes = NUM_CHILD * NUM_GRANDCHILDREN; }
 	data_per_process = ceil((double)data_size / total_processes);
-	//printf("data per processes: %d\n", data_per_process);
+	printf("data per processes: %d\n", data_per_process);
 
 	if(i >= n) { return; }
 	pid_t pid = fork();
@@ -566,6 +567,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 			if (min > data_buffer[j]) { min = data_buffer[j]; }
 			if (max < data_buffer[j]) { max = data_buffer[j]; }
 			sum += data_buffer[j];
+			printf("%d\n", count);
 			if (count >= data_size) { break; }
 			else { count++; }
 		}

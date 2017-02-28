@@ -541,7 +541,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 
 	//	if (ceil((double) data_size / total_processes) > (data_size / total_processes)) { NUM_CHILD++, total_processes = NUM_CHILD * NUM_GRANDCHILDREN; }
 	data_per_process = ceil((double)data_size / total_processes);
-	//printf("data per processes: %d\n", data_per_process);
+	printf("data per processes: %d\n", data_per_process);
 
 	if(i >= n) { return; }
 	pid_t pid = fork();

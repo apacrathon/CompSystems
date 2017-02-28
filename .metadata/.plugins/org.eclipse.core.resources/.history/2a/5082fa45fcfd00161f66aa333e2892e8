@@ -71,8 +71,8 @@ int main(void)
 
 	PART_A(data_size, data);
 	PART_B(data_size, data);
-	PART_C(data_size, data);
-	PART_D(data_size, data);
+	//PART_C(data_size, data);
+	//PART_D(data_size, data);
 
 	return EXIT_SUCCESS;
 }
@@ -98,8 +98,8 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 			num_processes, data_per_process,
 			shmid_write, shmid_read;
 	int32_t pipefd[2], data_buffer[data_size], * stats,
-			NUM_CHILD = NUM_CHILDREN, total_processes = NUM_CHILD;
-	key_t key = ftok("random.list", 'aa');
+			NUM_GRANDCHILDREN = 2, NUM_CHILD = NUM_CHILDREN, total_processes = NUM_CHILD * NUM_GRANDCHILDREN;
+	key_t key = ftok("random.list", 'r');
 
 	/*
 	 * Get shmid (writing) and attach system to shared segment.
@@ -115,11 +115,14 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 	if (total_processes > data_size)
 	{
 		total_processes = data_size;
-		NUM_CHILD = total_processes;
+		NUM_GRANDCHILDREN = 2 * log10(data_size);
+		NUM_CHILD = (total_processes / NUM_GRANDCHILDREN);
 	}
 
 	//	if (ceil((double) data_size / total_processes) > (data_size / total_processes)) { NUM_CHILD++, total_processes = NUM_CHILD * NUM_GRANDCHILDREN; }
 	data_per_process = ceil((double)data_size / total_processes);
+
+	printf("data per processes: %d, child: %d, gchild: %d, total_p: %d\n", data_per_process, NUM_CHILD, NUM_GRANDCHILDREN, total_processes);
 
 	// Create pipe, send data array from parent end, and close the parent write end.
 	if (pipe(pipefd) == -1) { printf("Error creating pipe."); exit(1); }
@@ -146,6 +149,7 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 		else { /*(void) fprintf(stderr, "shmget: shmget returned %d\n", shmid_read);*/ }
 		stats = (int *) shmat(shmid_read, NULL, SHM_RDONLY);
 		min = stats[0], max = stats[1], sum = stats[2], count = stats[3];
+		shmdt(stats);
 
 		// Have the child check its assigned chunk of data to see if there is a new min/max, and update the sum
 		for (int j = 0; j < data_per_process; j++)
@@ -196,7 +200,7 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 			shmid_write, shmid_read,
 			NUM_CHILD = NUM_CHILDREN, total_processes = NUM_CHILD;
 	int32_t pipefd[2], data_buffer[data_size], * stats;
-	key_t key = ftok("random.list", 'rr');
+	key_t key = ftok("random.list", 'r');
 
 	/*
 	 * Get shmid (writing) and attach system to shared segment.
@@ -245,6 +249,7 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 			else { /*(void) fprintf(stderr, "shmget: shmget returned %d\n", shmid_read);*/ }
 			stats = (int *) shmat(shmid_read, NULL, SHM_RDONLY);
 			min = stats[0], max = stats[1], sum = stats[2], count = stats[3];
+			shmdt(stats);
 
 			// Have the child check its assigned chunk of data to see if there is a new min/max, and update the sum
 			for (int j = 0; j < data_per_process; j++)
@@ -286,7 +291,7 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 	int32_t pipefd[2], data_buffer[data_size], * stats,
 			NUM_GRANDCHILDREN = 2, NUM_CHILD = NUM_CHILDREN, total_processes = NUM_CHILD * NUM_GRANDCHILDREN;
 
-	key_t key = ftok("random.list", 'ww');
+	key_t key = ftok("random.list", 'r');
 
 	/*
 	 * Get shmid (writing) and attach system to shared segment.
@@ -308,7 +313,7 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 	//	if (ceil((double) data_size / total_processes) > (data_size / total_processes)) { NUM_CHILD++, total_processes = NUM_CHILD * NUM_GRANDCHILDREN; }
 	data_per_process = ceil((double)data_size / total_processes);
 
-	//printf("data per processes: %d, child: %d, gchild: %d, total_p: %d\n", data_per_process, NUM_CHILD, NUM_GRANDCHILDREN, total_processes);
+	printf("data per processes: %d, child: %d, gchild: %d, total_p: %d\n", data_per_process, NUM_CHILD, NUM_GRANDCHILDREN, total_processes);
 
 	// Create pipe, send data array from parent end, and close the parent write end.
 	if (pipe(pipefd) == -1) { printf("Error creating pipe."); exit(1); }
@@ -459,7 +464,7 @@ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t dat
 	int32_t min = data[0], max = data[0], sum = 0, count = 0,
 				num_processes, data_per_process,
 				shmid_write, shmid_read,
-				NUM_CHILD = NUM_CHILDREN, total_processes = NUM_CHILD;
+				NUM_GRANDCHILDREN = 2, NUM_CHILD = NUM_CHILDREN, total_processes = NUM_CHILD * NUM_GRANDCHILDREN;
 	int32_t data_buffer[data_size];
 
 	/*
@@ -471,7 +476,7 @@ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t dat
 	stats = (int *) shmat(shmid_write, NULL, 0);
 
 	// Used to determine process/work division
-	data_per_process = data_size / (NUM_CHILD);
+	data_per_process = data_size / (NUM_CHILDREN);
 
 	if(i >= n) { return; }
 	pid_t pid = fork();
@@ -509,6 +514,7 @@ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t dat
 		else { /*(void) fprintf(stderr, "shmget: shmget returned %d\n", shmid_write);*/ }
 		stats = (int *) shmat(shmid_write, NULL, 0);
 		stats[0] = min, stats[1] = max, stats[2] = sum, stats[3] = count;
+		shmdt(stats);
 
 		i++;
 		newFork(i, n, pipefd, data, data_size, key, stats);
@@ -530,6 +536,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 	if ((shmid_write = shmget (key, SHM_SIZE, IPC_CREAT)) == -1) { perror("shmget :failed"); exit(1); }
 	else { /*(void) fprintf(stderr, "shmget: returned %d\n", shmid_write);*/ }
 	stats = (int *) shmat(shmid_write, NULL, 0);
+	shmdt(stats);
 
 	// Used to determine process/work division
 	if (total_processes > data_size)
@@ -541,7 +548,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 
 	//	if (ceil((double) data_size / total_processes) > (data_size / total_processes)) { NUM_CHILD++, total_processes = NUM_CHILD * NUM_GRANDCHILDREN; }
 	data_per_process = ceil((double)data_size / total_processes);
-	//printf("data per processes: %d\n", data_per_process);
+	printf("data per processes: %d\n", data_per_process);
 
 	if(i >= n) { return; }
 	pid_t pid = fork();
@@ -559,6 +566,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 		else { /*(void) fprintf(stderr, "shmget: shmget returned %d\n", shmid_read);*/ }
 		stats = (int *) shmat(shmid_read, NULL, SHM_RDONLY);
 		min = stats[0], max = stats[1], sum = stats[2], count = stats[3];
+		shmdt(stats);
 
 		// Have the child check its assigned chunk of data to see if there is a new min/max, and update the sum
 		for (int j = 0; j < data_per_process; j++)
@@ -566,6 +574,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 			if (min > data_buffer[j]) { min = data_buffer[j]; }
 			if (max < data_buffer[j]) { max = data_buffer[j]; }
 			sum += data_buffer[j];
+			printf("%d\n", count);
 			if (count >= data_size) { break; }
 			else { count++; }
 		}
@@ -578,6 +587,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 		else { /*(void) fprintf(stderr, "shmget: shmget returned %d\n", shmid_write);*/ }
 		stats = (int *) shmat(shmid_write, NULL, 0);
 		stats[0] = min, stats[1] = max, stats[2] = sum, stats[3] = count;
+		shmdt(stats);
 
 		i++;
 		newFork2(i, NUM_GRANDCHILDREN - 1, pipefd, data, data_size, key, stats);
