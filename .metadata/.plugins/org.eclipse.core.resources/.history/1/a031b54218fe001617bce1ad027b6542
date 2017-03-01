@@ -69,9 +69,9 @@ int main(void)
 	read_file(data_size, data, f_read);
 	//printf("Successfully read from file...\n");
 
-	//PART_A(data_size, data);
-	//PART_B(data_size, data);
-	//PART_C(data_size, data);
+	PART_A(data_size, data);
+	PART_B(data_size, data);
+	PART_C(data_size, data);
 	PART_D(data_size, data);
 
 	return EXIT_SUCCESS;
@@ -164,8 +164,9 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 			if (max < data_buffer[j]) { max = data_buffer[j]; }
 			sum += data_buffer[j];
 			if (count >= data_size) { break; }
+			//else { count++; }
 		}
-
+		printf("count: %d\n", count);
 		/*
 		 * Get shmid (writing) and attach system to shared segment.
 		 * Write updated stats to shared memory.
@@ -276,7 +277,7 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 				if (count >= data_size) { break; }
 				//else { count++; }
 			}
-
+			printf("count: %d\n", count);
 			/*
 			 * Get shmid (writing) and attach system to shared segment.
 			 * Write updated stats to shared memory.
@@ -399,7 +400,6 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 	printf("Max = %d\nMin = %d\nSum = %d\n", stats[1], stats[0], stats[2]);
 	shmdt((void *) stats);
 	printf("-------------------Ending Part D-------------------\n");
-	sleep(1000);
 	return 1;
 }
 
@@ -505,13 +505,7 @@ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t dat
 	stats = (int *) shmat(shmid_write, NULL, 0);
 
 	// Used to determine process/work division
-	if (total_processes > data_size)
-	{
-		total_processes = data_size;
-		NUM_CHILD = total_processes;
-	}
-
-	data_per_process = ceil((double)data_size / total_processes);
+	data_per_process = data_size / (NUM_CHILD);
 
 	if(i >= n) { return; }
 	pid_t pid = fork();
@@ -550,6 +544,7 @@ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t dat
 			if (count >= data_size) { break; }
 			//else { count++; }
 		}
+		printf("count: %d\n", count);
 
 		/*
 		 * Get shmid (writing) and attach system to shared segment.
@@ -629,6 +624,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 			if (max < data_buffer[j]) { max = data_buffer[j]; }
 			sum += data_buffer[j];
 			if (count >= data_size) { break; }
+			//else { count++; }
 		}
 
 

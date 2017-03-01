@@ -69,9 +69,9 @@ int main(void)
 	read_file(data_size, data, f_read);
 	//printf("Successfully read from file...\n");
 
-	//PART_A(data_size, data);
-	//PART_B(data_size, data);
-	//PART_C(data_size, data);
+	PART_A(data_size, data);
+	PART_B(data_size, data);
+	PART_C(data_size, data);
 	PART_D(data_size, data);
 
 	return EXIT_SUCCESS;
@@ -119,7 +119,7 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 	}
 
 	data_per_process = ceil((double)data_size / total_processes);
-
+	printf("dpp: %d", data_per_process);
 	// Create pipe, send data array from parent end, and close the parent write end.
 	if (pipe(pipefd) == -1) { printf("Error creating pipe."); exit(1); }
 	write(pipefd[1], data, data_size*sizeof(int));
@@ -135,17 +135,7 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 	else if (pid == 0)
 	{
 		printf ("Hi I'm process %d and my parent is %d.\n",getpid (), getppid ());
-		int32_t newData;
-		if (count >= data_size)
-		{
-			newData = data_per_process - ((data_per_process * total_processes) - data_size);
-			read(pipefd[0], data_buffer, newData*sizeof(int));
-		}
-		else
-		{
-			newData = data_per_process;
-			read(pipefd[0], data_buffer, newData*sizeof(int));
-		}
+		read(pipefd[0], data_buffer, data_per_process*sizeof(int));
 
 		/*
 		 * Get shmid (reading) and attach system to shared segment.
@@ -164,8 +154,9 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 			if (max < data_buffer[j]) { max = data_buffer[j]; }
 			sum += data_buffer[j];
 			if (count >= data_size) { break; }
+			//else { count++; }
 		}
-
+		printf("count: %d\n", count);
 		/*
 		 * Get shmid (writing) and attach system to shared segment.
 		 * Write updated stats to shared memory.
@@ -276,7 +267,7 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 				if (count >= data_size) { break; }
 				//else { count++; }
 			}
-
+			printf("count: %d\n", count);
 			/*
 			 * Get shmid (writing) and attach system to shared segment.
 			 * Write updated stats to shared memory.
@@ -399,7 +390,6 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 	printf("Max = %d\nMin = %d\nSum = %d\n", stats[1], stats[0], stats[2]);
 	shmdt((void *) stats);
 	printf("-------------------Ending Part D-------------------\n");
-	sleep(1000);
 	return 1;
 }
 
@@ -505,13 +495,7 @@ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t dat
 	stats = (int *) shmat(shmid_write, NULL, 0);
 
 	// Used to determine process/work division
-	if (total_processes > data_size)
-	{
-		total_processes = data_size;
-		NUM_CHILD = total_processes;
-	}
-
-	data_per_process = ceil((double)data_size / total_processes);
+	data_per_process = data_size / (NUM_CHILD);
 
 	if(i >= n) { return; }
 	pid_t pid = fork();
@@ -519,17 +503,7 @@ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t dat
 	else if (pid == 0)
 	{
 		printf ("Hi I'm process %d and my parent is %d.\n", getpid (), getppid ());
-		int32_t newData;
-		if (count >= data_size)
-		{
-			newData = data_per_process - ((data_per_process * total_processes) - data_size);
-			read(pipefd[0], data_buffer, newData*sizeof(int));
-		}
-		else
-		{
-			newData = data_per_process;
-			read(pipefd[0], data_buffer, newData*sizeof(int));
-		}
+		read((pipefd)[0], data_buffer, data_per_process*sizeof(int));
 
 		/*
 		 * Get shmid (reading) and attach system to shared segment.
@@ -550,6 +524,7 @@ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t dat
 			if (count >= data_size) { break; }
 			//else { count++; }
 		}
+		printf("count: %d\n", count);
 
 		/*
 		 * Get shmid (writing) and attach system to shared segment.
@@ -629,6 +604,7 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 			if (max < data_buffer[j]) { max = data_buffer[j]; }
 			sum += data_buffer[j];
 			if (count >= data_size) { break; }
+			//else { count++; }
 		}
 
 

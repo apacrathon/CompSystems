@@ -69,9 +69,9 @@ int main(void)
 	read_file(data_size, data, f_read);
 	//printf("Successfully read from file...\n");
 
-	//PART_A(data_size, data);
-	//PART_B(data_size, data);
-	//PART_C(data_size, data);
+	PART_A(data_size, data);
+	PART_B(data_size, data);
+	PART_C(data_size, data);
 	PART_D(data_size, data);
 
 	return EXIT_SUCCESS;
@@ -399,7 +399,6 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 	printf("Max = %d\nMin = %d\nSum = %d\n", stats[1], stats[0], stats[2]);
 	shmdt((void *) stats);
 	printf("-------------------Ending Part D-------------------\n");
-	sleep(1000);
 	return 1;
 }
 
