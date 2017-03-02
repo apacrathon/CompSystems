@@ -24,6 +24,7 @@
 #define SHM_SIZE (4 * sizeof(int))  /* 4 integer memory segment size*/
 
 static int32_t NUM_CHILDREN = 10;
+static FILE * output;
 /*
  * Functions to read and write to a file.
  */
@@ -57,9 +58,9 @@ int main(void)
 {
 	srand(time(NULL));
 
-	FILE * f_write = fopen("random.list", "w");
-	FILE * f_read = fopen("random.list", "r");
-	int32_t data_size = 1000, data[data_size];
+	FILE * f_write = fopen("random.txt", "w");
+	FILE * f_read = fopen("random.txt", "r");
+	int32_t data_size = 10000, data[data_size];
 
 	//printf("\nWriting to file...\n");
 	write_random_nums(data_size, f_write);
@@ -79,14 +80,27 @@ int main(void)
 
 int32_t PART_A(int32_t data_size, int32_t data[])
 {
+	output = fopen("output_part_a.txt", "w");
+	clock_t begin = clock();
+	/* here, do your time-consuming job */
+
 	pid_t pid = getpid();
 	pid_t ppid = getppid();
 
 	printf("\n-------------------Running Part A-------------------\n");
 	printf("Hi, I'm process %d, and my parent is %d.\n", pid, ppid);
+	fprintf(output, "Hi, I'm process %d, and my parent is %d.\n", pid, ppid);
 	printf("Max = %d\n", max_of_array(data_size, data));
+	fprintf(output, "Max = %d\n", max_of_array(data_size, data));
 	printf("Min = %d\n", min_of_array(data_size, data));
+	fprintf(output, "Min = %d\n", min_of_array(data_size, data));
 	printf("Sum = %d\n", sum_of_array(data_size, data));
+	fprintf(output, "Sum = %d\n", sum_of_array(data_size, data));
+	fclose(output);
+
+	clock_t end = clock();
+	double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+	printf("Time: %lf", time_spent);
 	printf("\n-------------------Ending Part A-------------------\n");
 	return 0;
 }
@@ -94,18 +108,21 @@ int32_t PART_A(int32_t data_size, int32_t data[])
 int32_t PART_B(int32_t data_size, int32_t data[])
 {
 	printf("\n-------------------Running Part B-------------------\n");
+	output = fopen("output_part_b.txt", "w");
+
+	clock_t begin = clock();
 	int32_t min = data[0], max = data[0], sum = 0, count = 0,
 			num_processes, data_per_process,
 			shmid_write, shmid_read;
 	int32_t pipefd[2], data_buffer[data_size], * stats,
 			NUM_CHILD = NUM_CHILDREN, total_processes = NUM_CHILD;
-	key_t key = ftok("random.list", 'aa');
+	key_t key = ftok("random.txt", 'aa');
 
 	/*
 	 * Get shmid (writing) and attach system to shared segment.
 	 * Write inital stats to shared memory.
 	 */
-	wait(NULL);
+	//wait(NULL);
 	if ((shmid_write = shmget (key, SHM_SIZE, 0644 | IPC_CREAT)) == -1) { perror("shmget :failed"); exit(1); }
 	else { /*(void) fprintf(stderr, "shmget: returned %d\n", shmid_write);*/ }
 	stats = (int *) shmat(shmid_write, NULL, 0);
@@ -135,6 +152,8 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 	else if (pid == 0)
 	{
 		printf ("Hi I'm process %d and my parent is %d.\n",getpid (), getppid ());
+		fprintf (output, "Hi I'm process %d and my parent is %d.\n",getpid (), getppid ());
+		fclose(output);
 		int32_t newData;
 		if (count >= data_size)
 		{
@@ -170,7 +189,7 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 		 * Get shmid (writing) and attach system to shared segment.
 		 * Write updated stats to shared memory.
 		 */
-		wait(NULL);
+		//wait(NULL);
 		if ((shmid_write = shmget (key, SHM_SIZE, IPC_CREAT)) == -1) { perror("shmget: shmget failed"); exit(1); }
 		else { /*(void) fprintf(stderr, "shmget: shmget returned %d\n", shmid_write);*/ }
 		stats = (int *) shmat(shmid_write, NULL, 0);
@@ -180,8 +199,17 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 		exit(0);
 	}
 	else { printf("fork error\n"); return -1; }
-	sleep(2);
-	printf("Max = %d\nMin = %d\nSum = %d\n", stats[1], stats[0], stats[2]);
+
+	clock_t end = clock();
+	double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+
+	printf("Max = %d\nMin = %d\nSum = %d\nTime: %lf\n", stats[1], stats[0], stats[2], time_spent);
+	if (pid > 0)
+	{
+		output = fopen("output_part_b.txt", "a");
+		fprintf(output, "Max = %d\nMin = %d\nSum = %d\nTime: %lf\n", stats[1], stats[0], stats[2], time_spent);
+		fclose(output);
+	}
 	shmdt((void *) stats);
 	printf("-------------------Ending Part B-------------------\n");
 
@@ -191,6 +219,7 @@ int32_t PART_B(int32_t data_size, int32_t data[])
 int32_t PART_C(int32_t data_size, int32_t data[])
 {
 	printf("\n-------------------Running Part C-------------------\n");
+	output = fopen("output_part_c.txt", "w");
 	/*
 	 * min, max, data 	 				used for statistics
 	 * num_process, data_per_process  	used for determining number of processes
@@ -199,12 +228,13 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 	 * data_buffer  					used as buffer for pipefd
 	 * stats  							shared memory segment for min, max, and sum.
 	 */
+	clock_t begin = clock();
 	int32_t min = data[0], max = data[0], sum = 0, count = 0,
 			num_processes, data_per_process,
 			shmid_write, shmid_read,
 			NUM_CHILD = NUM_CHILDREN, total_processes = NUM_CHILD;
 	int32_t pipefd[2], data_buffer[data_size], * stats;
-	key_t key = ftok("random.list", 'rr');
+	key_t key = ftok("random.txt", 'rr');
 
 	/*
 	 * Get shmid (writing) and attach system to shared segment.
@@ -221,7 +251,6 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 	//	if (ceil((double) data_size / total_processes) > (data_size / total_processes)) { NUM_CHILD++, total_processes = NUM_CHILD * NUM_GRANDCHILDREN; }
 	data_per_process = ceil((double)data_size / total_processes);
 
-	printf("data per processes: %d, child: %d, total_p: %d\n", data_per_process, NUM_CHILD, total_processes);
 	// Create pipe, send data array from parent end, and close the parent write end.
 	if (pipe(pipefd) == -1) { printf("Error creating pipe."); exit(1); }
 	write(pipefd[1], data, data_size*sizeof(int));
@@ -238,7 +267,10 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 		}
 		else if (pid == 0)		// in child
 		{
+
 			printf("Hi, I'm process %d, and my parent is %d\n", getpid(), getppid());
+			fprintf (output, "Hi I'm process %d and my parent is %d.\n",getpid (), getppid ());
+			fclose(output);
 
 			int32_t newData;
 			if (count >= data_size)
@@ -288,7 +320,14 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 		else { printf("fork error\n"); return -1; }
 	}
 
-	printf("Max = %d\nMin = %d\nSum = %d\n", stats[1], stats[0], stats[2]);
+	clock_t end = clock();
+	double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+
+	printf("Max = %d\nMin = %d\nSum = %d\nTime: %lf\n", stats[1], stats[0], stats[2], time_spent);
+	output = fopen("output_part_c.txt", "a");
+	fprintf(output, "Max = %d\nMin = %d\nSum = %d\nTime: %lf\n", stats[1], stats[0], stats[2], time_spent);
+	fclose(output);
+
 	shmdt(stats);
 
 	printf("-------------------Ending Part C-------------------\n");
@@ -298,13 +337,16 @@ int32_t PART_C(int32_t data_size, int32_t data[])
 int32_t PART_D(int32_t data_size, int32_t data[])
 {
 	printf("\n-------------------Running Part D-------------------\n");
+	output = fopen("output_part_d.txt", "w");
+	clock_t begin = clock();
+
 	int32_t min = data[0], max = data[0], sum = 0, count = 0,
 			num_processes, data_per_process,
 			shmid_write, shmid_read;
 	int32_t pipefd[2], data_buffer[data_size], * stats,
 			NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
 
-	key_t key = ftok("random.list", 'ww');
+	key_t key = ftok("random.txt", 'ww');
 
 	/*
 	 * Get shmid (writing) and attach system to shared segment.
@@ -392,8 +434,16 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 		}
 		else { printf("fork error\n"); return -1; }
 	}
-	sleep(2);
-	printf("Max = %d\nMin = %d\nSum = %d\n", stats[1], stats[0], stats[2]);
+	//sleep(2);
+	wait(NULL);
+	clock_t end = clock();
+	double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+	printf("Max = %d\nMin = %d\nSum = %d\nTime: %lf\n", stats[1], stats[0], stats[2], time_spent);
+
+	output = fopen("output_part_d.txt", "a");
+	fprintf(output, "Max = %d\nMin = %d\nSum = %d\nTime: %lf\n", stats[1], stats[0], stats[2], time_spent);
+	fclose(output);
+
 	shmdt((void *) stats);
 	printf("-------------------Ending Part D-------------------\n");
 	return 1;
@@ -421,10 +471,17 @@ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t dat
 
 	if(i >= n) { return; }
 	pid_t pid = fork();
-	if(pid != 0) {}
+	if(pid > 0)
+	{
+		wait(NULL);
+	}
 	else if (pid == 0)
 	{
 		printf ("Hi I'm process %d and my parent is %d.\n", getpid (), getppid ());
+		output = fopen("output_part_b.txt", "a");
+		fprintf (output, "Hi I'm process %d and my parent is %d.\n", getpid (), getppid ());
+		fclose(output);
+
 		int32_t newData;
 		if (count >= data_size)
 		{
@@ -498,6 +555,9 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 	else if (pid == 0)
 	{
 		printf ("Hi I'm process %d and my parent is %d.\n", getpid (), getppid ());
+		output = fopen("output_part_d.txt", "a");
+		fprintf (output, "Hi I'm process %d and my parent is %d.\n", getpid (), getppid ());
+		fclose(output);
 		int32_t newData;
 		if (count >= data_size)
 		{
@@ -547,10 +607,17 @@ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t da
 	else if (pid > 0)
 	{
 		printf ("Hi I'm process %d and my parent is %d.\n", getpid (), getppid ());
+		output = fopen("output_part_d.txt", "a");
+		fprintf (output, "Hi I'm process %d and my parent is %d.\n", getpid (), getppid ());
+		fclose(output);
+
 		pid_t pid2 = fork();
 		if (pid2 == 0)
 		{
 			printf ("Hi I'm process %d and my parent is %d.\n", getpid (), getppid ());
+			output = fopen("output_part_d.txt", "a");
+			fprintf (output, "Hi I'm process %d and my parent is %d.\n", getpid (), getppid ());
+			fclose(output);
 
 			int32_t newData;
 			if (count >= data_size)
