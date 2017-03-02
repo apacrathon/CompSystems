@@ -1,0 +1,14 @@
+Hi I'm process 24505 and my parent is 24504.
+Hi I'm process 24506 and my parent is 24504.
+Hi I'm process 24507 and my parent is 24504.
+Hi I'm process 24508 and my parent is 24504.
+Hi I'm process 24509 and my parent is 24504.
+Hi I'm process 24510 and my parent is 24504.
+Hi I'm process 24511 and my parent is 24504.
+Hi I'm process 24512 and my parent is 24504.
+Hi I'm process 24513 and my parent is 24504.
+Hi I'm process 24514 and my parent is 24504.
+Max = 1952802655
+Min = -1781178840
+Sum = 1957520055
+Time: 0.001576

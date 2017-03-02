@@ -36304,3 +36304,1040 @@ make: Nothing to be done for 'all'.
 23:06:19 **** Incremental Build of configuration Debug for project Project 1 ****
 make all 
 make: Nothing to be done for 'all'.
+23:26:37 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Part A/PART_A.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Part A/PART_A.d" -MT"src/Part\ A/PART_A.d" -o "src/Part A/PART_A.o" "../src/Part A/PART_A.c"
+../src/Part A/PART_A.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/Part A/PART_A.c
+ 
+Building file: ../src/PART_B.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_B.d" -MT"src/PART_B.o" -o "src/PART_B.o" "../src/PART_B.c"
+../src/PART_B.c: In function ‘PART_B’:
+../src/PART_B.c:119:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/PART_B.c:197:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c:115:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: In function ‘PART_C’:
+../src/PART_B.c:237:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'rr');
+                                 ^
+../src/PART_B.c:233:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: In function ‘PART_D’:
+../src/PART_B.c:349:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_B.c:431:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_B.c:347:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_B.c:344:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: At top level:
+../src/PART_B.c:452:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_B.c:197:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c: In function ‘newFork’:
+../src/PART_B.c:455:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/PART_B.c: At top level:
+../src/PART_B.c:532:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_B.c:431:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_B.c: In function ‘newFork2’:
+../src/PART_B.c:535:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_B.c:535:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_B.c:535:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+Finished building: ../src/PART_B.c
+ 
+Building file: ../src/PART_C.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_C.d" -MT"src/PART_C.o" -o "src/PART_C.o" "../src/PART_C.c"
+../src/PART_C.c: In function ‘PART_B’:
+../src/PART_C.c:119:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/PART_C.c:197:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_C.c:115:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_C.c: In function ‘PART_C’:
+../src/PART_C.c:237:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'rr');
+                                 ^
+../src/PART_C.c:233:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_C.c: In function ‘PART_D’:
+../src/PART_C.c:349:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_C.c:431:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_C.c:347:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_C.c:344:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_C.c: At top level:
+../src/PART_C.c:452:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_C.c:197:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_C.c: In function ‘newFork’:
+../src/PART_C.c:455:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/PART_C.c: At top level:
+../src/PART_C.c:532:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_C.c:431:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_C.c: In function ‘newFork2’:
+../src/PART_C.c:535:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_C.c:535:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_C.c:535:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+Finished building: ../src/PART_C.c
+ 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_B’:
+../src/PART_D.c:119:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/PART_D.c:197:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_D.c:115:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: In function ‘PART_C’:
+../src/PART_D.c:237:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'rr');
+                                 ^
+../src/PART_D.c:233:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:349:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:431:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:347:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:344:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:452:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:197:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_D.c: In function ‘newFork’:
+../src/PART_D.c:455:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:532:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:431:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:535:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:535:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:535:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+Finished building: ../src/PART_D.c
+ 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:119:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/Project 1.c:197:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:115:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:237:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'rr');
+                                 ^
+../src/Project 1.c:233:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:349:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/Project 1.c:431:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:347:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/Project 1.c:344:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:452:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:197:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:455:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:532:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:431:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:535:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/Project 1.c:535:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/Project 1.c:535:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Part\ A/PART_A.o  ./src/PART_B.o ./src/PART_C.o ./src/PART_D.o ./src/Project\ 1.o   -lm
+./src/PART_B.o: In function `main':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:58: multiple definition of `main'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:54: first defined here
+./src/PART_B.o: In function `write_random_nums':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:667: multiple definition of `write_random_nums'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:102: first defined here
+makefile:31: recipe for target 'Project 1' failed
+./src/PART_B.o: In function `read_file':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:688: multiple definition of `read_file'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:123: first defined here
+./src/PART_B.o: In function `PART_A':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:82: multiple definition of `PART_A'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:75: first defined here
+./src/PART_B.o: In function `max_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:732: multiple definition of `max_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:167: first defined here
+./src/PART_B.o: In function `min_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:720: multiple definition of `min_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:155: first defined here
+./src/PART_B.o: In function `sum_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:708: multiple definition of `sum_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:143: first defined here
+./src/PART_B.o: In function `print_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:744: multiple definition of `print_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:179: first defined here
+./src/PART_C.o: In function `main':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:58: multiple definition of `main'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:54: first defined here
+./src/PART_C.o: In function `write_random_nums':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:667: multiple definition of `write_random_nums'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:102: first defined here
+./src/PART_C.o: In function `read_file':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:688: multiple definition of `read_file'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:123: first defined here
+./src/PART_C.o: In function `PART_A':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:82: multiple definition of `PART_A'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:75: first defined here
+./src/PART_C.o: In function `PART_B':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:109: multiple definition of `PART_B'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:109: first defined here
+./src/PART_C.o: In function `PART_C':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:220: multiple definition of `PART_C'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:220: first defined here
+./src/PART_C.o: In function `PART_D':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:338: multiple definition of `PART_D'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:338: first defined here
+./src/PART_C.o: In function `max_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:732: multiple definition of `max_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:167: first defined here
+./src/PART_C.o: In function `min_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:720: multiple definition of `min_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:155: first defined here
+./src/PART_C.o: In function `sum_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:708: multiple definition of `sum_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:143: first defined here
+./src/PART_C.o: In function `newFork':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:453: multiple definition of `newFork'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:453: first defined here
+./src/PART_C.o: In function `newFork2':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:533: multiple definition of `newFork2'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:533: first defined here
+./src/PART_C.o: In function `print_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_C.c:744: multiple definition of `print_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:179: first defined here
+./src/PART_D.o: In function `main':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:58: multiple definition of `main'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:54: first defined here
+./src/PART_D.o: In function `write_random_nums':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:667: multiple definition of `write_random_nums'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:102: first defined here
+./src/PART_D.o: In function `read_file':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:688: multiple definition of `read_file'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:123: first defined here
+./src/PART_D.o: In function `PART_A':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:82: multiple definition of `PART_A'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:75: first defined here
+./src/PART_D.o: In function `PART_B':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:109: multiple definition of `PART_B'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:109: first defined here
+./src/PART_D.o: In function `PART_C':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:220: multiple definition of `PART_C'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:220: first defined here
+./src/PART_D.o: In function `PART_D':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:338: multiple definition of `PART_D'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:338: first defined here
+./src/PART_D.o: In function `max_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:732: multiple definition of `max_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:167: first defined here
+./src/PART_D.o: In function `min_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:720: multiple definition of `min_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:155: first defined here
+./src/PART_D.o: In function `sum_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:708: multiple definition of `sum_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:143: first defined here
+./src/PART_D.o: In function `newFork':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:453: multiple definition of `newFork'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:453: first defined here
+./src/PART_D.o: In function `newFork2':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:533: multiple definition of `newFork2'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:533: first defined here
+./src/PART_D.o: In function `print_array':
+/home/raj/comp_systems/Project 1/Debug/../src/PART_D.c:744: multiple definition of `print_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:179: first defined here
+./src/Project 1.o: In function `main':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:58: multiple definition of `main'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:54: first defined here
+./src/Project 1.o: In function `write_random_nums':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:667: multiple definition of `write_random_nums'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:102: first defined here
+./src/Project 1.o: In function `read_file':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:688: multiple definition of `read_file'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:123: first defined here
+./src/Project 1.o: In function `PART_A':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:82: multiple definition of `PART_A'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:75: first defined here
+./src/Project 1.o: In function `PART_B':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:109: multiple definition of `PART_B'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:109: first defined here
+./src/Project 1.o: In function `PART_C':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:220: multiple definition of `PART_C'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:220: first defined here
+./src/Project 1.o: In function `PART_D':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:338: multiple definition of `PART_D'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:338: first defined here
+./src/Project 1.o: In function `max_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:732: multiple definition of `max_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:167: first defined here
+./src/Project 1.o: In function `min_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:720: multiple definition of `min_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:155: first defined here
+./src/Project 1.o: In function `sum_of_array':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:708: multiple definition of `sum_of_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:143: first defined here
+./src/Project 1.o: In function `newFork':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:453: multiple definition of `newFork'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:453: first defined here
+./src/Project 1.o: In function `newFork2':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:533: multiple definition of `newFork2'
+./src/PART_B.o:/home/raj/comp_systems/Project 1/Debug/../src/PART_B.c:533: first defined here
+./src/Project 1.o: In function `print_array':
+/home/raj/comp_systems/Project 1/Debug/../src/Project 1.c:744: multiple definition of `print_array'
+./src/Part A/PART_A.o:/home/raj/comp_systems/Project 1/Debug/../src/Part A/PART_A.c:179: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [Project 1] Error 1
+23:30:46 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   -lm
+Finished building target: Project 1
+ 
+23:30:53 **** Clean-only build of configuration Debug for project Project 1 ****
+make clean 
+rm -rf  ./src/Project\ 1.o  ./src/Project\ 1.d  "Project 1"
+ 
+23:30:53 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+Building file: ../src/Project 1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Project 1.d" -MT"src/Project\ 1.d" -o "src/Project 1.o" "../src/Project 1.c"
+../src/Project 1.c: In function ‘PART_B’:
+../src/Project 1.c:119:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/Project 1.c:197:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c:115:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_C’:
+../src/Project 1.c:237:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'rr');
+                                 ^
+../src/Project 1.c:233:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: In function ‘PART_D’:
+../src/Project 1.c:349:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/Project 1.c:431:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c:347:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/Project 1.c:344:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:452:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:197:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/Project 1.c: In function ‘newFork’:
+../src/Project 1.c:455:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/Project 1.c: At top level:
+../src/Project 1.c:532:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/Project 1.c:431:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/Project 1.c: In function ‘newFork2’:
+../src/Project 1.c:535:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/Project 1.c:535:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/Project 1.c:535:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+Finished building: ../src/Project 1.c
+ 
+Building target: Project 1
+Invoking: GCC C Linker
+gcc  -o "Project 1"  ./src/Project\ 1.o   -lm
+Finished building target: Project 1
+ 
+23:31:10 **** Build of configuration Debug for project PART_A ****
+make all 
+Building file: ../src/PART_A.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_A.d" -MT"src/PART_A.o" -o "src/PART_A.o" "../src/PART_A.c"
+../src/PART_A.c:25:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_A.c
+ 
+Building target: PART_A
+Invoking: GCC C Linker
+gcc  -o "PART_A"  ./src/PART_A.o   
+Finished building target: PART_A
+ 
+23:31:10 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:31:12 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+make: Nothing to be done for 'all'.
+23:32:19 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+Building file: ../src/PART_A.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_A.d" -MT"src/PART_A.o" -o "src/PART_A.o" "../src/PART_A.c"
+../src/PART_A.c:25:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_A.c
+ 
+Building target: PART_A
+Invoking: GCC C Linker
+gcc  -o "PART_A"  ./src/PART_A.o   
+Finished building target: PART_A
+ 
+23:35:20 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+make: Nothing to be done for 'all'.
+23:35:20 **** Build of configuration Debug for project PART_B ****
+make all 
+Building file: ../src/PART_B.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_B.d" -MT"src/PART_B.o" -o "src/PART_B.o" "../src/PART_B.c"
+../src/PART_B.c: In function ‘main’:
+../src/PART_B.c:68:2: warning: implicit declaration of function ‘PART_A’ [-Wimplicit-function-declaration]
+  PART_A(data_size, data);
+  ^
+../src/PART_B.c:70:2: warning: implicit declaration of function ‘PART_C’ [-Wimplicit-function-declaration]
+  PART_C(data_size, data);
+  ^
+../src/PART_B.c:71:2: warning: implicit declaration of function ‘PART_D’ [-Wimplicit-function-declaration]
+  PART_D(data_size, data);
+  ^
+../src/PART_B.c: In function ‘PART_B’:
+../src/PART_B.c:114:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/PART_B.c:192:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c:110:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: In function ‘PART_C’:
+../src/PART_B.c:232:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'rr');
+                                 ^
+../src/PART_B.c:228:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: In function ‘PART_D’:
+../src/PART_B.c:344:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_B.c:426:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_B.c:342:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_B.c:339:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: At top level:
+../src/PART_B.c:447:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_B.c:192:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c: In function ‘newFork’:
+../src/PART_B.c:450:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+../src/PART_B.c: At top level:
+../src/PART_B.c:527:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_B.c:426:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_B.c: In function ‘newFork2’:
+../src/PART_B.c:530:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_B.c:530:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_B.c:530:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+Finished building: ../src/PART_B.c
+ 
+Building target: PART_B
+Invoking: GCC C Linker
+gcc  -o "PART_B"  ./src/PART_B.o   
+./src/PART_B.o: In function `PART_B':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:133: undefined reference to `ceil'
+./src/PART_B.o: In function `PART_C':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:247: undefined reference to `ceil'
+./src/PART_B.o: In function `PART_D':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:361: undefined reference to `ceil'
+./src/PART_B.o: In function `newFork':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:465: undefined reference to `ceil'
+./src/PART_B.o: In function `newFork2':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:542: undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+make: *** [PART_B] Error 1
+makefile:30: recipe for target 'PART_B' failed
+23:35:20 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:35:26 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+make: Nothing to be done for 'all'.
+23:35:26 **** Incremental Build of configuration Debug for project PART_B ****
+make all 
+Building target: PART_B
+Invoking: GCC C Linker
+gcc  -o "PART_B"  ./src/PART_B.o   
+./src/PART_B.o: In function `PART_B':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:133: undefined reference to `ceil'
+./src/PART_B.o: In function `PART_C':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:247: undefined reference to `ceil'
+makefile:30: recipe for target 'PART_B' failed
+./src/PART_B.o: In function `PART_D':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:361: undefined reference to `ceil'
+./src/PART_B.o: In function `newFork':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:465: undefined reference to `ceil'
+./src/PART_B.o: In function `newFork2':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:542: undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+make: *** [PART_B] Error 1
+23:35:26 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:36:32 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+make: Nothing to be done for 'all'.
+23:36:32 **** Incremental Build of configuration Debug for project PART_B ****
+make all 
+Building file: ../src/PART_B.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_B.d" -MT"src/PART_B.o" -o "src/PART_B.o" "../src/PART_B.c"
+../src/PART_B.c: In function ‘PART_B’:
+../src/PART_B.c:84:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/PART_B.c:162:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c:80:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: At top level:
+../src/PART_B.c:184:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_B.c:162:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c: In function ‘newFork’:
+../src/PART_B.c:187:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/PART_B.c
+ 
+Building target: PART_B
+Invoking: GCC C Linker
+gcc  -o "PART_B"  ./src/PART_B.o   
+./src/PART_B.o: In function `PART_B':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:103: undefined reference to `ceil'
+./src/PART_B.o: In function `newFork':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:202: undefined reference to `ceil'
+makefile:30: recipe for target 'PART_B' failed
+collect2: error: ld returned 1 exit status
+make: *** [PART_B] Error 1
+23:36:32 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:36:59 **** Incremental Build of configuration Debug for project PART_B ****
+make all 
+Building target: PART_B
+Invoking: GCC C Linker
+gcc  -o "PART_B"  ./src/PART_B.o   
+./src/PART_B.o: In function `PART_B':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:103: undefined reference to `ceil'
+./src/PART_B.o: In function `newFork':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:202: undefined reference to `ceil'
+makefile:30: recipe for target 'PART_B' failed
+collect2: error: ld returned 1 exit status
+make: *** [PART_B] Error 1
+23:43:29 **** Incremental Build of configuration Debug for project PART_B ****
+make all 
+Building target: PART_B
+Invoking: GCC C Linker
+gcc  -o "PART_B"  ./src/PART_B.o   
+./src/PART_B.o: In function `PART_B':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:103: undefined reference to `ceil'
+makefile:30: recipe for target 'PART_B' failed
+./src/PART_B.o: In function `newFork':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:202: undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+make: *** [PART_B] Error 1
+23:43:30 **** Build of configuration Debug for project PART_C ****
+make all 
+Building file: ../src/PART_C.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_C.d" -MT"src/PART_C.o" -o "src/PART_C.o" "../src/PART_C.c"
+../src/PART_C.c: In function ‘PART_C’:
+../src/PART_C.c:92:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'rr');
+                                 ^
+../src/PART_C.c:88:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+Finished building: ../src/PART_C.c
+ 
+Building target: PART_C
+Invoking: GCC C Linker
+gcc  -o "PART_C"  ./src/PART_C.o   
+./src/PART_C.o: In function `PART_C':
+/home/raj/comp_systems/PART_C/Debug/../src/PART_C.c:107: undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'PART_C' failed
+make: *** [PART_C] Error 1
+23:43:30 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:43:45 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+Building target: PART_C
+Invoking: GCC C Linker
+gcc  -o "PART_C"  ./src/PART_C.o   
+./src/PART_C.o: In function `PART_C':
+/home/raj/comp_systems/PART_C/Debug/../src/PART_C.c:107: undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'PART_C' failed
+make: *** [PART_C] Error 1
+23:45:55 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+Building target: PART_C
+Invoking: GCC C Linker
+gcc  -o "PART_C"  ./src/PART_C.o   
+./src/PART_C.o: In function `PART_C':
+/home/raj/comp_systems/PART_C/Debug/../src/PART_C.c:107: undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+make: *** [PART_C] Error 1
+makefile:30: recipe for target 'PART_C' failed
+23:45:55 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:48:43 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+Building target: PART_C
+Invoking: GCC C Linker
+gcc  -o "PART_C"  ./src/PART_C.o   
+./src/PART_C.o: In function `PART_C':
+/home/raj/comp_systems/PART_C/Debug/../src/PART_C.c:107: undefined reference to `ceil'
+makefile:30: recipe for target 'PART_C' failed
+collect2: error: ld returned 1 exit status
+make: *** [PART_C] Error 1
+23:48:43 **** Build of configuration Debug for project PART_D ****
+make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:168:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:189:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:168:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:192:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:192:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:192:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   
+./src/PART_D.o: In function `PART_D':
+/home/raj/comp_systems/PART_D/Debug/../src/PART_D.c:103: undefined reference to `ceil'
+./src/PART_D.o: In function `newFork2':
+/home/raj/comp_systems/PART_D/Debug/../src/PART_D.c:204: undefined reference to `ceil'
+makefile:30: recipe for target 'PART_D' failed
+collect2: error: ld returned 1 exit status
+make: *** [PART_D] Error 1
+23:48:43 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:49:21 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+Building target: PART_C
+Invoking: GCC C Linker
+gcc  -o "PART_C"  ./src/PART_C.o   
+./src/PART_C.o: In function `PART_C':
+/home/raj/comp_systems/PART_C/Debug/../src/PART_C.c:107: undefined reference to `ceil'
+makefile:30: recipe for target 'PART_C' failed
+collect2: error: ld returned 1 exit status
+make: *** [PART_C] Error 1
+23:49:21 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   
+./src/PART_D.o: In function `PART_D':
+/home/raj/comp_systems/PART_D/Debug/../src/PART_D.c:103: undefined reference to `ceil'
+makefile:30: recipe for target 'PART_D' failed
+./src/PART_D.o: In function `newFork2':
+/home/raj/comp_systems/PART_D/Debug/../src/PART_D.c:204: undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+make: *** [PART_D] Error 1
+23:49:21 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:50:18 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+Building target: PART_C
+Invoking: GCC C Linker
+gcc  -o "PART_C"  ./src/PART_C.o   -lm
+Finished building target: PART_C
+ 
+23:50:19 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 
+23:50:19 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:50:44 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+make: Nothing to be done for 'all'.
+23:50:44 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+23:50:44 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:16 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:16 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:16 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:42 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:46 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:46 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+23:51:46 **** Incremental Build of configuration Debug for project Project 1 ****
+make all 
+make: Nothing to be done for 'all'.
+23:54:52 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+make: Nothing to be done for 'all'.
+23:54:52 **** Build of configuration Debug for project PART_B ****
+make all 
+Building file: ../src/PART_B.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_B.d" -MT"src/PART_B.o" -o "src/PART_B.o" "../src/PART_B.c"
+../src/PART_B.c: In function ‘PART_B’:
+../src/PART_B.c:84:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/PART_B.c:162:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c:80:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: At top level:
+../src/PART_B.c:184:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_B.c:162:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c: In function ‘newFork’:
+../src/PART_B.c:187:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/PART_B.c
+ 
+Building target: PART_B
+Invoking: GCC C Linker
+gcc  -o "PART_B"  ./src/PART_B.o   
+./src/PART_B.o: In function `PART_B':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:103: undefined reference to `ceil'
+./src/PART_B.o: In function `newFork':
+/home/raj/comp_systems/PART_B/Debug/../src/PART_B.c:202: undefined reference to `ceil'
+makefile:30: recipe for target 'PART_B' failed
+collect2: error: ld returned 1 exit status
+make: *** [PART_B] Error 1
+23:54:53 **** Build of configuration Debug for project PART_BB ****
+make all 
+Building file: ../src/PART_B.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_B.d" -MT"src/PART_B.o" -o "src/PART_B.o" "../src/PART_B.c"
+../src/PART_B.c: In function ‘PART_B’:
+../src/PART_B.c:84:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/PART_B.c:162:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c:80:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: At top level:
+../src/PART_B.c:184:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_B.c:162:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c: In function ‘newFork’:
+../src/PART_B.c:187:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/PART_B.c
+ 
+Building target: PART_BB
+Invoking: GCC C Linker
+gcc  -o "PART_BB"  ./src/PART_B.o   
+./src/PART_B.o: In function `PART_B':
+/home/raj/comp_systems/PART_BB/Debug/../src/PART_B.c:103: undefined reference to `ceil'
+./src/PART_B.o: In function `newFork':
+/home/raj/comp_systems/PART_BB/Debug/../src/PART_B.c:202: undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'PART_BB' failed
+make: *** [PART_BB] Error 1
+23:54:53 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+make: Nothing to be done for 'all'.
+23:54:53 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:12 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:12 **** Incremental Build of configuration Debug for project PART_B ****
+make all 
+Building target: PART_B
+Invoking: GCC C Linker
+gcc  -o "PART_B"  ./src/PART_B.o   -lm
+Finished building target: PART_B
+ 
+23:55:12 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+make: Nothing to be done for 'all'.
+23:55:13 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+23:56:05 **** Incremental Build of configuration Debug for project PART_B ****
+make all 
+make: Nothing to be done for 'all'.
+23:56:10 **** Incremental Build of configuration Debug for project PART_B ****
+make all 
+make: Nothing to be done for 'all'.
+23:56:16 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+make: Nothing to be done for 'all'.
+23:56:22 **** Incremental Build of configuration Debug for project PART_B ****
+make all 
+make: Nothing to be done for 'all'.
+23:56:29 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+make: Nothing to be done for 'all'.
+23:56:37 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+make: Nothing to be done for 'all'.
+23:56:43 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+23:57:45 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+make: Nothing to be done for 'all'.
+23:57:45 **** Incremental Build of configuration Debug for project PART_B ****
+make all 
+make: Nothing to be done for 'all'.
+23:57:45 **** Incremental Build of configuration Debug for project PART_C ****
+make all 
+make: Nothing to be done for 'all'.
+23:57:46 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 

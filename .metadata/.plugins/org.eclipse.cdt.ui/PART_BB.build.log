@@ -1,0 +1,41 @@
+23:54:53 **** Build of configuration Debug for project PART_BB ****
+make all 
+Building file: ../src/PART_B.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_B.d" -MT"src/PART_B.o" -o "src/PART_B.o" "../src/PART_B.c"
+../src/PART_B.c: In function ‘PART_B’:
+../src/PART_B.c:84:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'aa');
+                                 ^
+../src/PART_B.c:162:3: warning: implicit declaration of function ‘newFork’ [-Wimplicit-function-declaration]
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c:80:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_B.c: At top level:
+../src/PART_B.c:184:6: warning: conflicting types for ‘newFork’
+ void newFork(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_B.c:162:3: note: previous implicit declaration of ‘newFork’ was here
+   newFork(0, NUM_CHILD - 1, &pipefd, data, data_size, key, &stats);
+   ^
+../src/PART_B.c: In function ‘newFork’:
+../src/PART_B.c:187:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process,
+     ^
+Finished building: ../src/PART_B.c
+ 
+Building target: PART_BB
+Invoking: GCC C Linker
+gcc  -o "PART_BB"  ./src/PART_B.o   
+./src/PART_B.o: In function `PART_B':
+/home/raj/comp_systems/PART_BB/Debug/../src/PART_B.c:103: undefined reference to `ceil'
+./src/PART_B.o: In function `newFork':
+/home/raj/comp_systems/PART_BB/Debug/../src/PART_B.c:202: undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'PART_BB' failed
+make: *** [PART_BB] Error 1
+
+23:54:53 Build Finished (took 126ms)
+

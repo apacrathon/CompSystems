@@ -1,0 +1,10 @@
+23:57:46 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 
+
+23:57:46 Build Finished (took 76ms)
+

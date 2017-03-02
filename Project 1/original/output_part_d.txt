@@ -1,0 +1,10 @@
+Hi I'm process 23798 and my parent is 23773.
+Hi I'm process 23799 and my parent is 23798.
+Hi I'm process 23800 and my parent is 23798.
+Hi I'm process 23801 and my parent is 23773.
+Hi I'm process 23802 and my parent is 23801.
+Hi I'm process 23803 and my parent is 23801.
+Max = 999
+Min = 0
+Sum = 4981324
+Time: 0.000116
