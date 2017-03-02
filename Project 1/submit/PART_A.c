@@ -88,11 +88,12 @@ int32_t PART_A(int32_t data_size, int32_t data[])
 	fprintf(output, "Min = %d\n", min_of_array(data_size, data));
 	printf("Sum = %d\n", sum_of_array(data_size, data));
 	fprintf(output, "Sum = %d\n", sum_of_array(data_size, data));
-	fclose(output);
 
 	clock_t end = clock();
 	double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
 	printf("Time: %lf", time_spent);
+	fprintf(output, "Time: = %lf\n", time_spent);
+	fclose(output);
 	printf("\n-------------------Ending Part A-------------------\n");
 	return 0;
 }
