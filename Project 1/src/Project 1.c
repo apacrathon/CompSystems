@@ -59,7 +59,7 @@ int main(void)
 
 	FILE * f_write = fopen("random.list", "w");
 	FILE * f_read = fopen("random.list", "r");
-	int32_t data_size = 10, data[data_size];
+	int32_t data_size = 1000, data[data_size];
 
 	//printf("\nWriting to file...\n");
 	write_random_nums(data_size, f_write);
@@ -315,7 +315,15 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 	stats = (int *) shmat(shmid_write, NULL, 0);
 	stats[0] = min, stats[1] = max, stats[2] = sum, stats[3] = count;
 
-	data_per_process = ceil((double)data_size / total_processes);
+	if(data_size <= 10)
+	{
+		data_per_process = 1;
+	}
+	else
+	{
+		data_per_process = ceil((double)data_size / total_processes);
+	}
+
 
 	//printf("data per processes: %d, child: %d, gchild: %d, total_p: %d\n", data_per_process, NUM_CHILD, NUM_GRANDCHILDREN, total_processes);
 
