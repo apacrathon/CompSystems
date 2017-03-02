@@ -1,0 +1,20 @@
+Compile Instructions:
+
+Please use the -lm linker to the math library to enable support for the ceil() function.
+
+gcc PART_A.c -o PART_A.out
+gcc PART_B.c -o PART_B.out -lm
+gcc PART_C.c -o PART_C.out -lm
+gcc PART_D.c -o PART_D.out -lm
+
+Structure of project/files:
+
+Currently, the program is set to use the 10,000 integer random.txt file. If you want to change the data size, then follow the instructions below.
+
+Each main statement has a data_size variable that needs to be changed accordingly if you use a different data set.
+
+random.txt contains 'data_size' amount of random integers. If you decide the change data_size you must uncomment the lines in the main function to write the new data_size number of integers to random.txt.
+//FILE * f_write = fopen("random.txt", "w");
+//write_random_nums(data_size, f_write);
+
+Each Part generates a separate output text file. Each time you run the program, the program will use the existing random.txt file (if there is not file then the results will be wrong because writing is disabled as mentioned above). Also, the program will generate a new output file each time it runs.

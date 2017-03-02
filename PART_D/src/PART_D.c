@@ -171,10 +171,11 @@ int32_t PART_D(int32_t data_size, int32_t data[])
 		}
 		else { printf("fork error\n"); return -1; }
 	}
-	//sleep(2);
+
 	wait(NULL);
 	clock_t end = clock();
 	double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
+	sleep(1);
 	printf("Max = %d\nMin = %d\nSum = %d\nTime: %lf\n", stats[1], stats[0], stats[2], time_spent);
 
 	output = fopen("output_part_d.txt", "a");

@@ -1,10 +1,10 @@
-Hi I'm process 25247 and my parent is 25246.
-Hi I'm process 25246 and my parent is 25241.
-Hi I'm process 25248 and my parent is 25246.
-Hi I'm process 25249 and my parent is 25241.
-Hi I'm process 25250 and my parent is 25249.
-Hi I'm process 25251 and my parent is 25249.
-Max = 1685382480
-Min = -318468568
-Sum = -286549235
-Time: 0.000165
+Hi I'm process 5620 and my parent is 5615.
+Hi I'm process 5621 and my parent is 5620.
+Hi I'm process 5622 and my parent is 5620.
+Hi I'm process 5623 and my parent is 5615.
+Hi I'm process 5624 and my parent is 5623.
+Hi I'm process 5625 and my parent is 5623.
+Max = 999
+Min = 0
+Sum = 5012892
+Time: 0.000162

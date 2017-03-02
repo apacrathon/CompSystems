@@ -1,10 +1,49 @@
-23:57:46 **** Incremental Build of configuration Debug for project PART_D ****
+11:13:21 **** Incremental Build of configuration Debug for project PART_D ****
 make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:168:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:190:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:168:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:193:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:193:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:193:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
 Building target: PART_D
 Invoking: GCC C Linker
 gcc  -o "PART_D"  ./src/PART_D.o   -lm
 Finished building target: PART_D
  
 
-23:57:46 Build Finished (took 76ms)
+11:13:21 Build Finished (took 114ms)
 

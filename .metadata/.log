@@ -1069,3 +1069,28 @@ Contains: Resource already exists on disk: '/home/raj/comp_systems/PART_B'.
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-03-01 23:54:30.716
 !MESSAGE Indexed 'PART_B' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2017-03-02 10:58:19.275 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170126-1030
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-03-02 11:01:48.172
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-03-02 11:01:48.190
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2017-03-02 11:01:48.193
+!MESSAGE Resource '/PART_B' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-03-02 11:01:48.238
+!MESSAGE Resource '/PART_C' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-03-02 11:01:48.238
+!MESSAGE Resource '/Project 1' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2017-03-02 11:01:48.239
+!MESSAGE Resource '/RemoteSystemsTempFiles' is not open.

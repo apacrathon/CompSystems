@@ -37341,3 +37341,500 @@ Invoking: GCC C Linker
 gcc  -o "PART_D"  ./src/PART_D.o   -lm
 Finished building target: PART_D
  
+11:01:36 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:48 **** Incremental Build of configuration Debug for project PART_A ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:51 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:52 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:53 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:54 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:55 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:56 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:57 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:58 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:01:59 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:02:00 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:02:02 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:02:37 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:168:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:190:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:168:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:193:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:193:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:193:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 
+11:02:42 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:08:58 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:178:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:190:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:178:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:193:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:193:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:193:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 
+11:10:49 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:168:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:190:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:168:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:193:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:193:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:193:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 
+11:10:54 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:10:55 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:10:56 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:10:57 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:10:58 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:10:59 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:00 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:01 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:02 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:03 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:04 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:05 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:06 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:08 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:09 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:10 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:11 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:12 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:13 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:14 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:15 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:11:27 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:168:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:190:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:168:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:193:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:193:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:193:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 
+11:11:40 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:168:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:190:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:168:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:193:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:193:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:193:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 
+11:11:57 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:168:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:190:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:168:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:193:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:193:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:193:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 
+11:12:14 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:15 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:16 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:17 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:18 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:19 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:20 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:12:54 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:168:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:190:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:168:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:193:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:193:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:193:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 
+11:12:55 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+make: Nothing to be done for 'all'.
+11:13:21 **** Incremental Build of configuration Debug for project PART_D ****
+make all 
+Building file: ../src/PART_D.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PART_D.d" -MT"src/PART_D.o" -o "src/PART_D.o" "../src/PART_D.c"
+../src/PART_D.c: In function ‘PART_D’:
+../src/PART_D.c:86:33: warning: multi-character character constant [-Wmultichar]
+  key_t key = ftok("random.txt", 'ww');
+                                 ^
+../src/PART_D.c:168:4: warning: implicit declaration of function ‘newFork2’ [-Wimplicit-function-declaration]
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c:84:4: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+    NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6;
+    ^
+../src/PART_D.c:81:4: warning: unused variable ‘num_processes’ [-Wunused-variable]
+    num_processes, data_per_process,
+    ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:190:6: warning: conflicting types for ‘newFork2’
+ void newFork2(int32_t i, int32_t n, int32_t * pipefd, int32_t data[], int32_t data_size, key_t key, int32_t * stats)
+      ^
+../src/PART_D.c:168:4: note: previous implicit declaration of ‘newFork2’ was here
+    newFork2(0, 1, &pipefd, data, data_size, key, &stats);
+    ^
+../src/PART_D.c: In function ‘newFork2’:
+../src/PART_D.c:193:61: warning: unused variable ‘NUM_CHILD’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                                             ^
+../src/PART_D.c:193:38: warning: unused variable ‘NUM_GRANDCHILDREN’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+                                      ^
+../src/PART_D.c:193:5: warning: unused variable ‘num_processes’ [-Wunused-variable]
+     num_processes, data_per_process, NUM_GRANDCHILDREN = 4, NUM_CHILD = 2, total_processes = 6,
+     ^
+../src/PART_D.c: At top level:
+../src/PART_D.c:26:16: warning: ‘NUM_CHILDREN’ defined but not used [-Wunused-variable]
+ static int32_t NUM_CHILDREN = 10;
+                ^
+Finished building: ../src/PART_D.c
+ 
+Building target: PART_D
+Invoking: GCC C Linker
+gcc  -o "PART_D"  ./src/PART_D.o   -lm
+Finished building target: PART_D
+ 

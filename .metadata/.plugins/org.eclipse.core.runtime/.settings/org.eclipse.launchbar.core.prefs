@@ -2,5 +2,7 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:test,org.eclipse.launchbar.core.descriptorType.default\:Project 1,org.eclipse.launchbar.core.descriptorType.default\:PART_A,org.eclipse.launchbar.core.descriptorType.default\:PART_B,org.eclipse.launchbar.core.descriptorType.default\:PART_C,org.eclipse.launchbar.core.descriptorType.default\:PART_D
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:PART_C/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:PART_C/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:test/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:test/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
